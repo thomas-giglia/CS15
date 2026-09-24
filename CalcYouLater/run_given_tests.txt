@@ -1,0 +1,6 @@
+{ add.cylc } file print clear
+7 { fact.cylc } file print clear
+4 { fib_debug.cylc } file print clear
+5 { fib.cylc } file print clear
+6 { n_fibs.cylc } file print clear
+quit

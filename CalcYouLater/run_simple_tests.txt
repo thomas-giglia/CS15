@@ -1,0 +1,2 @@
+{ simple_tests.cylc } file
+quit

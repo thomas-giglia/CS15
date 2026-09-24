@@ -1,0 +1,11 @@
+{ 5 4 + } exec print clear
+{ 1 { 3 5 - } exec + } exec print clear
+{ 3 2 * { 1 2 + } / { 5 3 - } mod } exec print
+clear
+{ add.cylc } file print clear
+5 { fib.cylc } file print clear
+6 { n_fibs.cylc } file print clear
+#t { #t } { #f } print clear
+#f { #t } { #f } print clear
+0 5 < { 3 4 * } { 12 3 / } print clear
+0 5 > { 24 3 mod } { { add.cylc } exec 5 / } print clear

@@ -1,0 +1,42 @@
+15
+12
+4
+1
+#f
+#t
+#t
+#f
+#t
+#t
+#t
+#t
+10
+1
+2
+3
+printStack  
+# Should print stack from top to bottom: 3, 2, 1
+swap
+printStack  
+# Should print stack from top to bottom: 2, 3, 1
+drop
+printStack  
+# Should print stack from top to bottom: 3, 1
+clear
+printStack  
+# Should print nothing (empty stack)
+# Executing an rstring
+{ 100 200 + print }
+exec  
+# Should print 300
+# Conditionals
+#t
+{ 100 print }
+{ 200 print }
+if  
+# Should print 100
+#f
+{ 100 print }
+{ 200 print }
+if  
+# Should print 200

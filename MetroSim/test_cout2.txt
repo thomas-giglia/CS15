@@ -1,0 +1,2161 @@
+Passengers on the train: {}
+TRAIN: [0] Heath St {}
+       [1] Back of the Hill {}
+       [2] Riverway {}
+       [3] Mission Park {}
+       [4] Fenwood Rd {}
+       [5] Brigham Circle {}
+       [6] Longwood Medical {}
+       [7] Museum of Fine Arts {}
+       [8] Northeastern {}
+       [9] Symphony {}
+       [10] Prudential {}
+       [11] Copley {}
+       [12] Arlington {}
+       [13] Boylston {}
+       [14] Park St {}
+       [15] Government Center {}
+       [16] Haymarket {}
+       [17] North Station {}
+       [18] Science Park {}
+       [19] Lechmere {}
+       [20] Union Square {}
+       [21] East Somerville {}
+       [22] Gilman Square {}
+       [23] Magoun Square {}
+       [24] Ball Square {}
+       [25] College Ave {}
+Command? Passengers on the train: {}
+TRAIN: [0] Heath St {[1, 0->5]}
+       [1] Back of the Hill {}
+       [2] Riverway {}
+       [3] Mission Park {}
+       [4] Fenwood Rd {}
+       [5] Brigham Circle {}
+       [6] Longwood Medical {}
+       [7] Museum of Fine Arts {}
+       [8] Northeastern {}
+       [9] Symphony {}
+       [10] Prudential {}
+       [11] Copley {}
+       [12] Arlington {}
+       [13] Boylston {}
+       [14] Park St {}
+       [15] Government Center {}
+       [16] Haymarket {}
+       [17] North Station {}
+       [18] Science Park {}
+       [19] Lechmere {}
+       [20] Union Square {}
+       [21] East Somerville {}
+       [22] Gilman Square {}
+       [23] Magoun Square {}
+       [24] Ball Square {}
+       [25] College Ave {}
+Command? Passengers on the train: {}
+TRAIN: [0] Heath St {[1, 0->5][2, 0->6]}
+       [1] Back of the Hill {}
+       [2] Riverway {}
+       [3] Mission Park {}
+       [4] Fenwood Rd {}
+       [5] Brigham Circle {}
+       [6] Longwood Medical {}
+       [7] Museum of Fine Arts {}
+       [8] Northeastern {}
+       [9] Symphony {}
+       [10] Prudential {}
+       [11] Copley {}
+       [12] Arlington {}
+       [13] Boylston {}
+       [14] Park St {}
+       [15] Government Center {}
+       [16] Haymarket {}
+       [17] North Station {}
+       [18] Science Park {}
+       [19] Lechmere {}
+       [20] Union Square {}
+       [21] East Somerville {}
+       [22] Gilman Square {}
+       [23] Magoun Square {}
+       [24] Ball Square {}
+       [25] College Ave {}
+Command? Passengers on the train: {}
+TRAIN: [0] Heath St {[1, 0->5][2, 0->6][3, 0->7]}
+       [1] Back of the Hill {}
+       [2] Riverway {}
+       [3] Mission Park {}
+       [4] Fenwood Rd {}
+       [5] Brigham Circle {}
+       [6] Longwood Medical {}
+       [7] Museum of Fine Arts {}
+       [8] Northeastern {}
+       [9] Symphony {}
+       [10] Prudential {}
+       [11] Copley {}
+       [12] Arlington {}
+       [13] Boylston {}
+       [14] Park St {}
+       [15] Government Center {}
+       [16] Haymarket {}
+       [17] North Station {}
+       [18] Science Park {}
+       [19] Lechmere {}
+       [20] Union Square {}
+       [21] East Somerville {}
+       [22] Gilman Square {}
+       [23] Magoun Square {}
+       [24] Ball Square {}
+       [25] College Ave {}
+Command? Passengers on the train: {}
+TRAIN: [0] Heath St {[1, 0->5][2, 0->6][3, 0->7]}
+       [1] Back of the Hill {[4, 1->8]}
+       [2] Riverway {}
+       [3] Mission Park {}
+       [4] Fenwood Rd {}
+       [5] Brigham Circle {}
+       [6] Longwood Medical {}
+       [7] Museum of Fine Arts {}
+       [8] Northeastern {}
+       [9] Symphony {}
+       [10] Prudential {}
+       [11] Copley {}
+       [12] Arlington {}
+       [13] Boylston {}
+       [14] Park St {}
+       [15] Government Center {}
+       [16] Haymarket {}
+       [17] North Station {}
+       [18] Science Park {}
+       [19] Lechmere {}
+       [20] Union Square {}
+       [21] East Somerville {}
+       [22] Gilman Square {}
+       [23] Magoun Square {}
+       [24] Ball Square {}
+       [25] College Ave {}
+Command? Passengers on the train: {}
+TRAIN: [0] Heath St {[1, 0->5][2, 0->6][3, 0->7]}
+       [1] Back of the Hill {[4, 1->8][5, 1->9]}
+       [2] Riverway {}
+       [3] Mission Park {}
+       [4] Fenwood Rd {}
+       [5] Brigham Circle {}
+       [6] Longwood Medical {}
+       [7] Museum of Fine Arts {}
+       [8] Northeastern {}
+       [9] Symphony {}
+       [10] Prudential {}
+       [11] Copley {}
+       [12] Arlington {}
+       [13] Boylston {}
+       [14] Park St {}
+       [15] Government Center {}
+       [16] Haymarket {}
+       [17] North Station {}
+       [18] Science Park {}
+       [19] Lechmere {}
+       [20] Union Square {}
+       [21] East Somerville {}
+       [22] Gilman Square {}
+       [23] Magoun Square {}
+       [24] Ball Square {}
+       [25] College Ave {}
+Command? Passengers on the train: {}
+TRAIN: [0] Heath St {[1, 0->5][2, 0->6][3, 0->7]}
+       [1] Back of the Hill {[4, 1->8][5, 1->9]}
+       [2] Riverway {[6, 2->10]}
+       [3] Mission Park {}
+       [4] Fenwood Rd {}
+       [5] Brigham Circle {}
+       [6] Longwood Medical {}
+       [7] Museum of Fine Arts {}
+       [8] Northeastern {}
+       [9] Symphony {}
+       [10] Prudential {}
+       [11] Copley {}
+       [12] Arlington {}
+       [13] Boylston {}
+       [14] Park St {}
+       [15] Government Center {}
+       [16] Haymarket {}
+       [17] North Station {}
+       [18] Science Park {}
+       [19] Lechmere {}
+       [20] Union Square {}
+       [21] East Somerville {}
+       [22] Gilman Square {}
+       [23] Magoun Square {}
+       [24] Ball Square {}
+       [25] College Ave {}
+Command? Passengers on the train: {}
+TRAIN: [0] Heath St {[1, 0->5][2, 0->6][3, 0->7]}
+       [1] Back of the Hill {[4, 1->8][5, 1->9]}
+       [2] Riverway {[6, 2->10][7, 2->11]}
+       [3] Mission Park {}
+       [4] Fenwood Rd {}
+       [5] Brigham Circle {}
+       [6] Longwood Medical {}
+       [7] Museum of Fine Arts {}
+       [8] Northeastern {}
+       [9] Symphony {}
+       [10] Prudential {}
+       [11] Copley {}
+       [12] Arlington {}
+       [13] Boylston {}
+       [14] Park St {}
+       [15] Government Center {}
+       [16] Haymarket {}
+       [17] North Station {}
+       [18] Science Park {}
+       [19] Lechmere {}
+       [20] Union Square {}
+       [21] East Somerville {}
+       [22] Gilman Square {}
+       [23] Magoun Square {}
+       [24] Ball Square {}
+       [25] College Ave {}
+Command? Passengers on the train: {}
+TRAIN: [0] Heath St {[1, 0->5][2, 0->6][3, 0->7]}
+       [1] Back of the Hill {[4, 1->8][5, 1->9]}
+       [2] Riverway {[6, 2->10][7, 2->11]}
+       [3] Mission Park {[8, 3->12]}
+       [4] Fenwood Rd {}
+       [5] Brigham Circle {}
+       [6] Longwood Medical {}
+       [7] Museum of Fine Arts {}
+       [8] Northeastern {}
+       [9] Symphony {}
+       [10] Prudential {}
+       [11] Copley {}
+       [12] Arlington {}
+       [13] Boylston {}
+       [14] Park St {}
+       [15] Government Center {}
+       [16] Haymarket {}
+       [17] North Station {}
+       [18] Science Park {}
+       [19] Lechmere {}
+       [20] Union Square {}
+       [21] East Somerville {}
+       [22] Gilman Square {}
+       [23] Magoun Square {}
+       [24] Ball Square {}
+       [25] College Ave {}
+Command? Passengers on the train: {}
+TRAIN: [0] Heath St {[1, 0->5][2, 0->6][3, 0->7]}
+       [1] Back of the Hill {[4, 1->8][5, 1->9]}
+       [2] Riverway {[6, 2->10][7, 2->11]}
+       [3] Mission Park {[8, 3->12][9, 3->13]}
+       [4] Fenwood Rd {}
+       [5] Brigham Circle {}
+       [6] Longwood Medical {}
+       [7] Museum of Fine Arts {}
+       [8] Northeastern {}
+       [9] Symphony {}
+       [10] Prudential {}
+       [11] Copley {}
+       [12] Arlington {}
+       [13] Boylston {}
+       [14] Park St {}
+       [15] Government Center {}
+       [16] Haymarket {}
+       [17] North Station {}
+       [18] Science Park {}
+       [19] Lechmere {}
+       [20] Union Square {}
+       [21] East Somerville {}
+       [22] Gilman Square {}
+       [23] Magoun Square {}
+       [24] Ball Square {}
+       [25] College Ave {}
+Command? Passengers on the train: {}
+TRAIN: [0] Heath St {[1, 0->5][2, 0->6][3, 0->7]}
+       [1] Back of the Hill {[4, 1->8][5, 1->9]}
+       [2] Riverway {[6, 2->10][7, 2->11]}
+       [3] Mission Park {[8, 3->12][9, 3->13]}
+       [4] Fenwood Rd {[10, 4->14]}
+       [5] Brigham Circle {}
+       [6] Longwood Medical {}
+       [7] Museum of Fine Arts {}
+       [8] Northeastern {}
+       [9] Symphony {}
+       [10] Prudential {}
+       [11] Copley {}
+       [12] Arlington {}
+       [13] Boylston {}
+       [14] Park St {}
+       [15] Government Center {}
+       [16] Haymarket {}
+       [17] North Station {}
+       [18] Science Park {}
+       [19] Lechmere {}
+       [20] Union Square {}
+       [21] East Somerville {}
+       [22] Gilman Square {}
+       [23] Magoun Square {}
+       [24] Ball Square {}
+       [25] College Ave {}
+Command? Passengers on the train: {}
+TRAIN: [0] Heath St {[1, 0->5][2, 0->6][3, 0->7]}
+       [1] Back of the Hill {[4, 1->8][5, 1->9]}
+       [2] Riverway {[6, 2->10][7, 2->11]}
+       [3] Mission Park {[8, 3->12][9, 3->13]}
+       [4] Fenwood Rd {[10, 4->14][11, 4->15]}
+       [5] Brigham Circle {}
+       [6] Longwood Medical {}
+       [7] Museum of Fine Arts {}
+       [8] Northeastern {}
+       [9] Symphony {}
+       [10] Prudential {}
+       [11] Copley {}
+       [12] Arlington {}
+       [13] Boylston {}
+       [14] Park St {}
+       [15] Government Center {}
+       [16] Haymarket {}
+       [17] North Station {}
+       [18] Science Park {}
+       [19] Lechmere {}
+       [20] Union Square {}
+       [21] East Somerville {}
+       [22] Gilman Square {}
+       [23] Magoun Square {}
+       [24] Ball Square {}
+       [25] College Ave {}
+Command? Passengers on the train: {}
+TRAIN: [0] Heath St {[1, 0->5][2, 0->6][3, 0->7]}
+       [1] Back of the Hill {[4, 1->8][5, 1->9]}
+       [2] Riverway {[6, 2->10][7, 2->11]}
+       [3] Mission Park {[8, 3->12][9, 3->13]}
+       [4] Fenwood Rd {[10, 4->14][11, 4->15]}
+       [5] Brigham Circle {[12, 5->16]}
+       [6] Longwood Medical {}
+       [7] Museum of Fine Arts {}
+       [8] Northeastern {}
+       [9] Symphony {}
+       [10] Prudential {}
+       [11] Copley {}
+       [12] Arlington {}
+       [13] Boylston {}
+       [14] Park St {}
+       [15] Government Center {}
+       [16] Haymarket {}
+       [17] North Station {}
+       [18] Science Park {}
+       [19] Lechmere {}
+       [20] Union Square {}
+       [21] East Somerville {}
+       [22] Gilman Square {}
+       [23] Magoun Square {}
+       [24] Ball Square {}
+       [25] College Ave {}
+Command? Passengers on the train: {}
+TRAIN: [0] Heath St {[1, 0->5][2, 0->6][3, 0->7]}
+       [1] Back of the Hill {[4, 1->8][5, 1->9]}
+       [2] Riverway {[6, 2->10][7, 2->11]}
+       [3] Mission Park {[8, 3->12][9, 3->13]}
+       [4] Fenwood Rd {[10, 4->14][11, 4->15]}
+       [5] Brigham Circle {[12, 5->16][13, 5->17]}
+       [6] Longwood Medical {}
+       [7] Museum of Fine Arts {}
+       [8] Northeastern {}
+       [9] Symphony {}
+       [10] Prudential {}
+       [11] Copley {}
+       [12] Arlington {}
+       [13] Boylston {}
+       [14] Park St {}
+       [15] Government Center {}
+       [16] Haymarket {}
+       [17] North Station {}
+       [18] Science Park {}
+       [19] Lechmere {}
+       [20] Union Square {}
+       [21] East Somerville {}
+       [22] Gilman Square {}
+       [23] Magoun Square {}
+       [24] Ball Square {}
+       [25] College Ave {}
+Command? Passengers on the train: {}
+TRAIN: [0] Heath St {[1, 0->5][2, 0->6][3, 0->7]}
+       [1] Back of the Hill {[4, 1->8][5, 1->9]}
+       [2] Riverway {[6, 2->10][7, 2->11]}
+       [3] Mission Park {[8, 3->12][9, 3->13]}
+       [4] Fenwood Rd {[10, 4->14][11, 4->15]}
+       [5] Brigham Circle {[12, 5->16][13, 5->17]}
+       [6] Longwood Medical {[14, 6->18]}
+       [7] Museum of Fine Arts {}
+       [8] Northeastern {}
+       [9] Symphony {}
+       [10] Prudential {}
+       [11] Copley {}
+       [12] Arlington {}
+       [13] Boylston {}
+       [14] Park St {}
+       [15] Government Center {}
+       [16] Haymarket {}
+       [17] North Station {}
+       [18] Science Park {}
+       [19] Lechmere {}
+       [20] Union Square {}
+       [21] East Somerville {}
+       [22] Gilman Square {}
+       [23] Magoun Square {}
+       [24] Ball Square {}
+       [25] College Ave {}
+Command? Passengers on the train: {}
+TRAIN: [0] Heath St {[1, 0->5][2, 0->6][3, 0->7]}
+       [1] Back of the Hill {[4, 1->8][5, 1->9]}
+       [2] Riverway {[6, 2->10][7, 2->11]}
+       [3] Mission Park {[8, 3->12][9, 3->13]}
+       [4] Fenwood Rd {[10, 4->14][11, 4->15]}
+       [5] Brigham Circle {[12, 5->16][13, 5->17]}
+       [6] Longwood Medical {[14, 6->18][15, 6->19]}
+       [7] Museum of Fine Arts {}
+       [8] Northeastern {}
+       [9] Symphony {}
+       [10] Prudential {}
+       [11] Copley {}
+       [12] Arlington {}
+       [13] Boylston {}
+       [14] Park St {}
+       [15] Government Center {}
+       [16] Haymarket {}
+       [17] North Station {}
+       [18] Science Park {}
+       [19] Lechmere {}
+       [20] Union Square {}
+       [21] East Somerville {}
+       [22] Gilman Square {}
+       [23] Magoun Square {}
+       [24] Ball Square {}
+       [25] College Ave {}
+Command? Passengers on the train: {}
+TRAIN: [0] Heath St {[1, 0->5][2, 0->6][3, 0->7]}
+       [1] Back of the Hill {[4, 1->8][5, 1->9]}
+       [2] Riverway {[6, 2->10][7, 2->11]}
+       [3] Mission Park {[8, 3->12][9, 3->13]}
+       [4] Fenwood Rd {[10, 4->14][11, 4->15]}
+       [5] Brigham Circle {[12, 5->16][13, 5->17]}
+       [6] Longwood Medical {[14, 6->18][15, 6->19]}
+       [7] Museum of Fine Arts {[16, 7->20]}
+       [8] Northeastern {}
+       [9] Symphony {}
+       [10] Prudential {}
+       [11] Copley {}
+       [12] Arlington {}
+       [13] Boylston {}
+       [14] Park St {}
+       [15] Government Center {}
+       [16] Haymarket {}
+       [17] North Station {}
+       [18] Science Park {}
+       [19] Lechmere {}
+       [20] Union Square {}
+       [21] East Somerville {}
+       [22] Gilman Square {}
+       [23] Magoun Square {}
+       [24] Ball Square {}
+       [25] College Ave {}
+Command? Passengers on the train: {}
+TRAIN: [0] Heath St {[1, 0->5][2, 0->6][3, 0->7]}
+       [1] Back of the Hill {[4, 1->8][5, 1->9]}
+       [2] Riverway {[6, 2->10][7, 2->11]}
+       [3] Mission Park {[8, 3->12][9, 3->13]}
+       [4] Fenwood Rd {[10, 4->14][11, 4->15]}
+       [5] Brigham Circle {[12, 5->16][13, 5->17]}
+       [6] Longwood Medical {[14, 6->18][15, 6->19]}
+       [7] Museum of Fine Arts {[16, 7->20][17, 7->21]}
+       [8] Northeastern {}
+       [9] Symphony {}
+       [10] Prudential {}
+       [11] Copley {}
+       [12] Arlington {}
+       [13] Boylston {}
+       [14] Park St {}
+       [15] Government Center {}
+       [16] Haymarket {}
+       [17] North Station {}
+       [18] Science Park {}
+       [19] Lechmere {}
+       [20] Union Square {}
+       [21] East Somerville {}
+       [22] Gilman Square {}
+       [23] Magoun Square {}
+       [24] Ball Square {}
+       [25] College Ave {}
+Command? Passengers on the train: {}
+TRAIN: [0] Heath St {[1, 0->5][2, 0->6][3, 0->7]}
+       [1] Back of the Hill {[4, 1->8][5, 1->9]}
+       [2] Riverway {[6, 2->10][7, 2->11]}
+       [3] Mission Park {[8, 3->12][9, 3->13]}
+       [4] Fenwood Rd {[10, 4->14][11, 4->15]}
+       [5] Brigham Circle {[12, 5->16][13, 5->17]}
+       [6] Longwood Medical {[14, 6->18][15, 6->19]}
+       [7] Museum of Fine Arts {[16, 7->20][17, 7->21]}
+       [8] Northeastern {[18, 8->22]}
+       [9] Symphony {}
+       [10] Prudential {}
+       [11] Copley {}
+       [12] Arlington {}
+       [13] Boylston {}
+       [14] Park St {}
+       [15] Government Center {}
+       [16] Haymarket {}
+       [17] North Station {}
+       [18] Science Park {}
+       [19] Lechmere {}
+       [20] Union Square {}
+       [21] East Somerville {}
+       [22] Gilman Square {}
+       [23] Magoun Square {}
+       [24] Ball Square {}
+       [25] College Ave {}
+Command? Passengers on the train: {}
+TRAIN: [0] Heath St {[1, 0->5][2, 0->6][3, 0->7]}
+       [1] Back of the Hill {[4, 1->8][5, 1->9]}
+       [2] Riverway {[6, 2->10][7, 2->11]}
+       [3] Mission Park {[8, 3->12][9, 3->13]}
+       [4] Fenwood Rd {[10, 4->14][11, 4->15]}
+       [5] Brigham Circle {[12, 5->16][13, 5->17]}
+       [6] Longwood Medical {[14, 6->18][15, 6->19]}
+       [7] Museum of Fine Arts {[16, 7->20][17, 7->21]}
+       [8] Northeastern {[18, 8->22][19, 8->23]}
+       [9] Symphony {}
+       [10] Prudential {}
+       [11] Copley {}
+       [12] Arlington {}
+       [13] Boylston {}
+       [14] Park St {}
+       [15] Government Center {}
+       [16] Haymarket {}
+       [17] North Station {}
+       [18] Science Park {}
+       [19] Lechmere {}
+       [20] Union Square {}
+       [21] East Somerville {}
+       [22] Gilman Square {}
+       [23] Magoun Square {}
+       [24] Ball Square {}
+       [25] College Ave {}
+Command? Passengers on the train: {}
+TRAIN: [0] Heath St {[1, 0->5][2, 0->6][3, 0->7]}
+       [1] Back of the Hill {[4, 1->8][5, 1->9]}
+       [2] Riverway {[6, 2->10][7, 2->11]}
+       [3] Mission Park {[8, 3->12][9, 3->13]}
+       [4] Fenwood Rd {[10, 4->14][11, 4->15]}
+       [5] Brigham Circle {[12, 5->16][13, 5->17]}
+       [6] Longwood Medical {[14, 6->18][15, 6->19]}
+       [7] Museum of Fine Arts {[16, 7->20][17, 7->21]}
+       [8] Northeastern {[18, 8->22][19, 8->23]}
+       [9] Symphony {[20, 9->24]}
+       [10] Prudential {}
+       [11] Copley {}
+       [12] Arlington {}
+       [13] Boylston {}
+       [14] Park St {}
+       [15] Government Center {}
+       [16] Haymarket {}
+       [17] North Station {}
+       [18] Science Park {}
+       [19] Lechmere {}
+       [20] Union Square {}
+       [21] East Somerville {}
+       [22] Gilman Square {}
+       [23] Magoun Square {}
+       [24] Ball Square {}
+       [25] College Ave {}
+Command? Passengers on the train: {}
+TRAIN: [0] Heath St {[1, 0->5][2, 0->6][3, 0->7]}
+       [1] Back of the Hill {[4, 1->8][5, 1->9]}
+       [2] Riverway {[6, 2->10][7, 2->11]}
+       [3] Mission Park {[8, 3->12][9, 3->13]}
+       [4] Fenwood Rd {[10, 4->14][11, 4->15]}
+       [5] Brigham Circle {[12, 5->16][13, 5->17]}
+       [6] Longwood Medical {[14, 6->18][15, 6->19]}
+       [7] Museum of Fine Arts {[16, 7->20][17, 7->21]}
+       [8] Northeastern {[18, 8->22][19, 8->23]}
+       [9] Symphony {[20, 9->24][21, 9->25]}
+       [10] Prudential {}
+       [11] Copley {}
+       [12] Arlington {}
+       [13] Boylston {}
+       [14] Park St {}
+       [15] Government Center {}
+       [16] Haymarket {}
+       [17] North Station {}
+       [18] Science Park {}
+       [19] Lechmere {}
+       [20] Union Square {}
+       [21] East Somerville {}
+       [22] Gilman Square {}
+       [23] Magoun Square {}
+       [24] Ball Square {}
+       [25] College Ave {}
+Command? Passengers on the train: {}
+TRAIN: [0] Heath St {[1, 0->5][2, 0->6][3, 0->7]}
+       [1] Back of the Hill {[4, 1->8][5, 1->9]}
+       [2] Riverway {[6, 2->10][7, 2->11]}
+       [3] Mission Park {[8, 3->12][9, 3->13]}
+       [4] Fenwood Rd {[10, 4->14][11, 4->15]}
+       [5] Brigham Circle {[12, 5->16][13, 5->17]}
+       [6] Longwood Medical {[14, 6->18][15, 6->19]}
+       [7] Museum of Fine Arts {[16, 7->20][17, 7->21]}
+       [8] Northeastern {[18, 8->22][19, 8->23]}
+       [9] Symphony {[20, 9->24][21, 9->25]}
+       [10] Prudential {[22, 10->20]}
+       [11] Copley {}
+       [12] Arlington {}
+       [13] Boylston {}
+       [14] Park St {}
+       [15] Government Center {}
+       [16] Haymarket {}
+       [17] North Station {}
+       [18] Science Park {}
+       [19] Lechmere {}
+       [20] Union Square {}
+       [21] East Somerville {}
+       [22] Gilman Square {}
+       [23] Magoun Square {}
+       [24] Ball Square {}
+       [25] College Ave {}
+Command? Passengers on the train: {}
+TRAIN: [0] Heath St {[1, 0->5][2, 0->6][3, 0->7]}
+       [1] Back of the Hill {[4, 1->8][5, 1->9]}
+       [2] Riverway {[6, 2->10][7, 2->11]}
+       [3] Mission Park {[8, 3->12][9, 3->13]}
+       [4] Fenwood Rd {[10, 4->14][11, 4->15]}
+       [5] Brigham Circle {[12, 5->16][13, 5->17]}
+       [6] Longwood Medical {[14, 6->18][15, 6->19]}
+       [7] Museum of Fine Arts {[16, 7->20][17, 7->21]}
+       [8] Northeastern {[18, 8->22][19, 8->23]}
+       [9] Symphony {[20, 9->24][21, 9->25]}
+       [10] Prudential {[22, 10->20]}
+       [11] Copley {[23, 11->20]}
+       [12] Arlington {}
+       [13] Boylston {}
+       [14] Park St {}
+       [15] Government Center {}
+       [16] Haymarket {}
+       [17] North Station {}
+       [18] Science Park {}
+       [19] Lechmere {}
+       [20] Union Square {}
+       [21] East Somerville {}
+       [22] Gilman Square {}
+       [23] Magoun Square {}
+       [24] Ball Square {}
+       [25] College Ave {}
+Command? Passengers on the train: {}
+TRAIN: [0] Heath St {[1, 0->5][2, 0->6][3, 0->7]}
+       [1] Back of the Hill {[4, 1->8][5, 1->9]}
+       [2] Riverway {[6, 2->10][7, 2->11]}
+       [3] Mission Park {[8, 3->12][9, 3->13]}
+       [4] Fenwood Rd {[10, 4->14][11, 4->15]}
+       [5] Brigham Circle {[12, 5->16][13, 5->17]}
+       [6] Longwood Medical {[14, 6->18][15, 6->19]}
+       [7] Museum of Fine Arts {[16, 7->20][17, 7->21]}
+       [8] Northeastern {[18, 8->22][19, 8->23]}
+       [9] Symphony {[20, 9->24][21, 9->25]}
+       [10] Prudential {[22, 10->20]}
+       [11] Copley {[23, 11->20]}
+       [12] Arlington {[24, 12->21]}
+       [13] Boylston {}
+       [14] Park St {}
+       [15] Government Center {}
+       [16] Haymarket {}
+       [17] North Station {}
+       [18] Science Park {}
+       [19] Lechmere {}
+       [20] Union Square {}
+       [21] East Somerville {}
+       [22] Gilman Square {}
+       [23] Magoun Square {}
+       [24] Ball Square {}
+       [25] College Ave {}
+Command? Passengers on the train: {}
+TRAIN: [0] Heath St {[1, 0->5][2, 0->6][3, 0->7]}
+       [1] Back of the Hill {[4, 1->8][5, 1->9]}
+       [2] Riverway {[6, 2->10][7, 2->11]}
+       [3] Mission Park {[8, 3->12][9, 3->13]}
+       [4] Fenwood Rd {[10, 4->14][11, 4->15]}
+       [5] Brigham Circle {[12, 5->16][13, 5->17]}
+       [6] Longwood Medical {[14, 6->18][15, 6->19]}
+       [7] Museum of Fine Arts {[16, 7->20][17, 7->21]}
+       [8] Northeastern {[18, 8->22][19, 8->23]}
+       [9] Symphony {[20, 9->24][21, 9->25]}
+       [10] Prudential {[22, 10->20]}
+       [11] Copley {[23, 11->20]}
+       [12] Arlington {[24, 12->21]}
+       [13] Boylston {[25, 13->22]}
+       [14] Park St {}
+       [15] Government Center {}
+       [16] Haymarket {}
+       [17] North Station {}
+       [18] Science Park {}
+       [19] Lechmere {}
+       [20] Union Square {}
+       [21] East Somerville {}
+       [22] Gilman Square {}
+       [23] Magoun Square {}
+       [24] Ball Square {}
+       [25] College Ave {}
+Command? Passengers on the train: {}
+TRAIN: [0] Heath St {[1, 0->5][2, 0->6][3, 0->7]}
+       [1] Back of the Hill {[4, 1->8][5, 1->9]}
+       [2] Riverway {[6, 2->10][7, 2->11]}
+       [3] Mission Park {[8, 3->12][9, 3->13]}
+       [4] Fenwood Rd {[10, 4->14][11, 4->15]}
+       [5] Brigham Circle {[12, 5->16][13, 5->17]}
+       [6] Longwood Medical {[14, 6->18][15, 6->19]}
+       [7] Museum of Fine Arts {[16, 7->20][17, 7->21]}
+       [8] Northeastern {[18, 8->22][19, 8->23]}
+       [9] Symphony {[20, 9->24][21, 9->25]}
+       [10] Prudential {[22, 10->20]}
+       [11] Copley {[23, 11->20]}
+       [12] Arlington {[24, 12->21]}
+       [13] Boylston {[25, 13->22]}
+       [14] Park St {[26, 14->23]}
+       [15] Government Center {}
+       [16] Haymarket {}
+       [17] North Station {}
+       [18] Science Park {}
+       [19] Lechmere {}
+       [20] Union Square {}
+       [21] East Somerville {}
+       [22] Gilman Square {}
+       [23] Magoun Square {}
+       [24] Ball Square {}
+       [25] College Ave {}
+Command? Passengers on the train: {}
+TRAIN: [0] Heath St {[1, 0->5][2, 0->6][3, 0->7]}
+       [1] Back of the Hill {[4, 1->8][5, 1->9]}
+       [2] Riverway {[6, 2->10][7, 2->11]}
+       [3] Mission Park {[8, 3->12][9, 3->13]}
+       [4] Fenwood Rd {[10, 4->14][11, 4->15]}
+       [5] Brigham Circle {[12, 5->16][13, 5->17]}
+       [6] Longwood Medical {[14, 6->18][15, 6->19]}
+       [7] Museum of Fine Arts {[16, 7->20][17, 7->21]}
+       [8] Northeastern {[18, 8->22][19, 8->23]}
+       [9] Symphony {[20, 9->24][21, 9->25]}
+       [10] Prudential {[22, 10->20]}
+       [11] Copley {[23, 11->20]}
+       [12] Arlington {[24, 12->21]}
+       [13] Boylston {[25, 13->22]}
+       [14] Park St {[26, 14->23]}
+       [15] Government Center {[27, 15->24]}
+       [16] Haymarket {}
+       [17] North Station {}
+       [18] Science Park {}
+       [19] Lechmere {}
+       [20] Union Square {}
+       [21] East Somerville {}
+       [22] Gilman Square {}
+       [23] Magoun Square {}
+       [24] Ball Square {}
+       [25] College Ave {}
+Command? Passengers on the train: {}
+TRAIN: [0] Heath St {[1, 0->5][2, 0->6][3, 0->7]}
+       [1] Back of the Hill {[4, 1->8][5, 1->9]}
+       [2] Riverway {[6, 2->10][7, 2->11]}
+       [3] Mission Park {[8, 3->12][9, 3->13]}
+       [4] Fenwood Rd {[10, 4->14][11, 4->15]}
+       [5] Brigham Circle {[12, 5->16][13, 5->17]}
+       [6] Longwood Medical {[14, 6->18][15, 6->19]}
+       [7] Museum of Fine Arts {[16, 7->20][17, 7->21]}
+       [8] Northeastern {[18, 8->22][19, 8->23]}
+       [9] Symphony {[20, 9->24][21, 9->25]}
+       [10] Prudential {[22, 10->20]}
+       [11] Copley {[23, 11->20]}
+       [12] Arlington {[24, 12->21]}
+       [13] Boylston {[25, 13->22]}
+       [14] Park St {[26, 14->23]}
+       [15] Government Center {[27, 15->24]}
+       [16] Haymarket {[28, 16->25]}
+       [17] North Station {}
+       [18] Science Park {}
+       [19] Lechmere {}
+       [20] Union Square {}
+       [21] East Somerville {}
+       [22] Gilman Square {}
+       [23] Magoun Square {}
+       [24] Ball Square {}
+       [25] College Ave {}
+Command? Passengers on the train: {}
+TRAIN: [0] Heath St {[1, 0->5][2, 0->6][3, 0->7]}
+       [1] Back of the Hill {[4, 1->8][5, 1->9]}
+       [2] Riverway {[6, 2->10][7, 2->11]}
+       [3] Mission Park {[8, 3->12][9, 3->13]}
+       [4] Fenwood Rd {[10, 4->14][11, 4->15]}
+       [5] Brigham Circle {[12, 5->16][13, 5->17]}
+       [6] Longwood Medical {[14, 6->18][15, 6->19]}
+       [7] Museum of Fine Arts {[16, 7->20][17, 7->21]}
+       [8] Northeastern {[18, 8->22][19, 8->23]}
+       [9] Symphony {[20, 9->24][21, 9->25]}
+       [10] Prudential {[22, 10->20]}
+       [11] Copley {[23, 11->20]}
+       [12] Arlington {[24, 12->21]}
+       [13] Boylston {[25, 13->22]}
+       [14] Park St {[26, 14->23]}
+       [15] Government Center {[27, 15->24]}
+       [16] Haymarket {[28, 16->25]}
+       [17] North Station {[29, 17->20]}
+       [18] Science Park {}
+       [19] Lechmere {}
+       [20] Union Square {}
+       [21] East Somerville {}
+       [22] Gilman Square {}
+       [23] Magoun Square {}
+       [24] Ball Square {}
+       [25] College Ave {}
+Command? Passengers on the train: {}
+TRAIN: [0] Heath St {[1, 0->5][2, 0->6][3, 0->7]}
+       [1] Back of the Hill {[4, 1->8][5, 1->9]}
+       [2] Riverway {[6, 2->10][7, 2->11]}
+       [3] Mission Park {[8, 3->12][9, 3->13]}
+       [4] Fenwood Rd {[10, 4->14][11, 4->15]}
+       [5] Brigham Circle {[12, 5->16][13, 5->17]}
+       [6] Longwood Medical {[14, 6->18][15, 6->19]}
+       [7] Museum of Fine Arts {[16, 7->20][17, 7->21]}
+       [8] Northeastern {[18, 8->22][19, 8->23]}
+       [9] Symphony {[20, 9->24][21, 9->25]}
+       [10] Prudential {[22, 10->20]}
+       [11] Copley {[23, 11->20]}
+       [12] Arlington {[24, 12->21]}
+       [13] Boylston {[25, 13->22]}
+       [14] Park St {[26, 14->23]}
+       [15] Government Center {[27, 15->24]}
+       [16] Haymarket {[28, 16->25]}
+       [17] North Station {[29, 17->20]}
+       [18] Science Park {[30, 18->19]}
+       [19] Lechmere {}
+       [20] Union Square {}
+       [21] East Somerville {}
+       [22] Gilman Square {}
+       [23] Magoun Square {}
+       [24] Ball Square {}
+       [25] College Ave {}
+Command? Passengers on the train: {}
+TRAIN: [0] Heath St {[1, 0->5][2, 0->6][3, 0->7]}
+       [1] Back of the Hill {[4, 1->8][5, 1->9]}
+       [2] Riverway {[6, 2->10][7, 2->11]}
+       [3] Mission Park {[8, 3->12][9, 3->13]}
+       [4] Fenwood Rd {[10, 4->14][11, 4->15]}
+       [5] Brigham Circle {[12, 5->16][13, 5->17]}
+       [6] Longwood Medical {[14, 6->18][15, 6->19]}
+       [7] Museum of Fine Arts {[16, 7->20][17, 7->21]}
+       [8] Northeastern {[18, 8->22][19, 8->23]}
+       [9] Symphony {[20, 9->24][21, 9->25]}
+       [10] Prudential {[22, 10->20]}
+       [11] Copley {[23, 11->20]}
+       [12] Arlington {[24, 12->21]}
+       [13] Boylston {[25, 13->22]}
+       [14] Park St {[26, 14->23]}
+       [15] Government Center {[27, 15->24]}
+       [16] Haymarket {[28, 16->25]}
+       [17] North Station {[29, 17->20]}
+       [18] Science Park {[30, 18->19]}
+       [19] Lechmere {[31, 19->20]}
+       [20] Union Square {}
+       [21] East Somerville {}
+       [22] Gilman Square {}
+       [23] Magoun Square {}
+       [24] Ball Square {}
+       [25] College Ave {}
+Command? Passengers on the train: {}
+TRAIN: [0] Heath St {[1, 0->5][2, 0->6][3, 0->7]}
+       [1] Back of the Hill {[4, 1->8][5, 1->9]}
+       [2] Riverway {[6, 2->10][7, 2->11]}
+       [3] Mission Park {[8, 3->12][9, 3->13]}
+       [4] Fenwood Rd {[10, 4->14][11, 4->15]}
+       [5] Brigham Circle {[12, 5->16][13, 5->17]}
+       [6] Longwood Medical {[14, 6->18][15, 6->19]}
+       [7] Museum of Fine Arts {[16, 7->20][17, 7->21]}
+       [8] Northeastern {[18, 8->22][19, 8->23]}
+       [9] Symphony {[20, 9->24][21, 9->25]}
+       [10] Prudential {[22, 10->20]}
+       [11] Copley {[23, 11->20]}
+       [12] Arlington {[24, 12->21]}
+       [13] Boylston {[25, 13->22]}
+       [14] Park St {[26, 14->23]}
+       [15] Government Center {[27, 15->24]}
+       [16] Haymarket {[28, 16->25]}
+       [17] North Station {[29, 17->20]}
+       [18] Science Park {[30, 18->19]}
+       [19] Lechmere {[31, 19->20]}
+       [20] Union Square {[32, 20->21]}
+       [21] East Somerville {}
+       [22] Gilman Square {}
+       [23] Magoun Square {}
+       [24] Ball Square {}
+       [25] College Ave {}
+Command? Passengers on the train: {}
+TRAIN: [0] Heath St {[1, 0->5][2, 0->6][3, 0->7]}
+       [1] Back of the Hill {[4, 1->8][5, 1->9]}
+       [2] Riverway {[6, 2->10][7, 2->11]}
+       [3] Mission Park {[8, 3->12][9, 3->13]}
+       [4] Fenwood Rd {[10, 4->14][11, 4->15]}
+       [5] Brigham Circle {[12, 5->16][13, 5->17]}
+       [6] Longwood Medical {[14, 6->18][15, 6->19]}
+       [7] Museum of Fine Arts {[16, 7->20][17, 7->21]}
+       [8] Northeastern {[18, 8->22][19, 8->23]}
+       [9] Symphony {[20, 9->24][21, 9->25]}
+       [10] Prudential {[22, 10->20]}
+       [11] Copley {[23, 11->20]}
+       [12] Arlington {[24, 12->21]}
+       [13] Boylston {[25, 13->22]}
+       [14] Park St {[26, 14->23]}
+       [15] Government Center {[27, 15->24]}
+       [16] Haymarket {[28, 16->25]}
+       [17] North Station {[29, 17->20]}
+       [18] Science Park {[30, 18->19]}
+       [19] Lechmere {[31, 19->20]}
+       [20] Union Square {[32, 20->21]}
+       [21] East Somerville {[33, 21->22]}
+       [22] Gilman Square {}
+       [23] Magoun Square {}
+       [24] Ball Square {}
+       [25] College Ave {}
+Command? Passengers on the train: {}
+TRAIN: [0] Heath St {[1, 0->5][2, 0->6][3, 0->7]}
+       [1] Back of the Hill {[4, 1->8][5, 1->9]}
+       [2] Riverway {[6, 2->10][7, 2->11]}
+       [3] Mission Park {[8, 3->12][9, 3->13]}
+       [4] Fenwood Rd {[10, 4->14][11, 4->15]}
+       [5] Brigham Circle {[12, 5->16][13, 5->17]}
+       [6] Longwood Medical {[14, 6->18][15, 6->19]}
+       [7] Museum of Fine Arts {[16, 7->20][17, 7->21]}
+       [8] Northeastern {[18, 8->22][19, 8->23]}
+       [9] Symphony {[20, 9->24][21, 9->25]}
+       [10] Prudential {[22, 10->20]}
+       [11] Copley {[23, 11->20]}
+       [12] Arlington {[24, 12->21]}
+       [13] Boylston {[25, 13->22]}
+       [14] Park St {[26, 14->23]}
+       [15] Government Center {[27, 15->24]}
+       [16] Haymarket {[28, 16->25]}
+       [17] North Station {[29, 17->20]}
+       [18] Science Park {[30, 18->19]}
+       [19] Lechmere {[31, 19->20]}
+       [20] Union Square {[32, 20->21]}
+       [21] East Somerville {[33, 21->22]}
+       [22] Gilman Square {[34, 22->23]}
+       [23] Magoun Square {}
+       [24] Ball Square {}
+       [25] College Ave {}
+Command? Passengers on the train: {}
+TRAIN: [0] Heath St {[1, 0->5][2, 0->6][3, 0->7]}
+       [1] Back of the Hill {[4, 1->8][5, 1->9]}
+       [2] Riverway {[6, 2->10][7, 2->11]}
+       [3] Mission Park {[8, 3->12][9, 3->13]}
+       [4] Fenwood Rd {[10, 4->14][11, 4->15]}
+       [5] Brigham Circle {[12, 5->16][13, 5->17]}
+       [6] Longwood Medical {[14, 6->18][15, 6->19]}
+       [7] Museum of Fine Arts {[16, 7->20][17, 7->21]}
+       [8] Northeastern {[18, 8->22][19, 8->23]}
+       [9] Symphony {[20, 9->24][21, 9->25]}
+       [10] Prudential {[22, 10->20]}
+       [11] Copley {[23, 11->20]}
+       [12] Arlington {[24, 12->21]}
+       [13] Boylston {[25, 13->22]}
+       [14] Park St {[26, 14->23]}
+       [15] Government Center {[27, 15->24]}
+       [16] Haymarket {[28, 16->25]}
+       [17] North Station {[29, 17->20]}
+       [18] Science Park {[30, 18->19]}
+       [19] Lechmere {[31, 19->20]}
+       [20] Union Square {[32, 20->21]}
+       [21] East Somerville {[33, 21->22]}
+       [22] Gilman Square {[34, 22->23]}
+       [23] Magoun Square {[35, 23->24]}
+       [24] Ball Square {}
+       [25] College Ave {}
+Command? Passengers on the train: {}
+TRAIN: [0] Heath St {[1, 0->5][2, 0->6][3, 0->7]}
+       [1] Back of the Hill {[4, 1->8][5, 1->9]}
+       [2] Riverway {[6, 2->10][7, 2->11]}
+       [3] Mission Park {[8, 3->12][9, 3->13]}
+       [4] Fenwood Rd {[10, 4->14][11, 4->15]}
+       [5] Brigham Circle {[12, 5->16][13, 5->17]}
+       [6] Longwood Medical {[14, 6->18][15, 6->19]}
+       [7] Museum of Fine Arts {[16, 7->20][17, 7->21]}
+       [8] Northeastern {[18, 8->22][19, 8->23]}
+       [9] Symphony {[20, 9->24][21, 9->25]}
+       [10] Prudential {[22, 10->20]}
+       [11] Copley {[23, 11->20]}
+       [12] Arlington {[24, 12->21]}
+       [13] Boylston {[25, 13->22]}
+       [14] Park St {[26, 14->23]}
+       [15] Government Center {[27, 15->24]}
+       [16] Haymarket {[28, 16->25]}
+       [17] North Station {[29, 17->20]}
+       [18] Science Park {[30, 18->19]}
+       [19] Lechmere {[31, 19->20]}
+       [20] Union Square {[32, 20->21]}
+       [21] East Somerville {[33, 21->22]}
+       [22] Gilman Square {[34, 22->23]}
+       [23] Magoun Square {[35, 23->24]}
+       [24] Ball Square {[36, 24->25]}
+       [25] College Ave {}
+Command? Passengers on the train: {}
+TRAIN: [0] Heath St {[1, 0->5][2, 0->6][3, 0->7]}
+       [1] Back of the Hill {[4, 1->8][5, 1->9]}
+       [2] Riverway {[6, 2->10][7, 2->11]}
+       [3] Mission Park {[8, 3->12][9, 3->13]}
+       [4] Fenwood Rd {[10, 4->14][11, 4->15]}
+       [5] Brigham Circle {[12, 5->16][13, 5->17]}
+       [6] Longwood Medical {[14, 6->18][15, 6->19]}
+       [7] Museum of Fine Arts {[16, 7->20][17, 7->21]}
+       [8] Northeastern {[18, 8->22][19, 8->23]}
+       [9] Symphony {[20, 9->24][21, 9->25]}
+       [10] Prudential {[22, 10->20]}
+       [11] Copley {[23, 11->20]}
+       [12] Arlington {[24, 12->21]}
+       [13] Boylston {[25, 13->22]}
+       [14] Park St {[26, 14->23]}
+       [15] Government Center {[27, 15->24]}
+       [16] Haymarket {[28, 16->25]}
+       [17] North Station {[29, 17->20]}
+       [18] Science Park {[30, 18->19]}
+       [19] Lechmere {[31, 19->20]}
+       [20] Union Square {[32, 20->21]}
+       [21] East Somerville {[33, 21->22]}
+       [22] Gilman Square {[34, 22->23]}
+       [23] Magoun Square {[35, 23->24]}
+       [24] Ball Square {[36, 24->25]}
+       [25] College Ave {[37, 25->20]}
+Command? Passengers on the train: {}
+TRAIN: [0] Heath St {[1, 0->5][2, 0->6][3, 0->7]}
+       [1] Back of the Hill {[4, 1->8][5, 1->9][38, 1->5]}
+       [2] Riverway {[6, 2->10][7, 2->11]}
+       [3] Mission Park {[8, 3->12][9, 3->13]}
+       [4] Fenwood Rd {[10, 4->14][11, 4->15]}
+       [5] Brigham Circle {[12, 5->16][13, 5->17]}
+       [6] Longwood Medical {[14, 6->18][15, 6->19]}
+       [7] Museum of Fine Arts {[16, 7->20][17, 7->21]}
+       [8] Northeastern {[18, 8->22][19, 8->23]}
+       [9] Symphony {[20, 9->24][21, 9->25]}
+       [10] Prudential {[22, 10->20]}
+       [11] Copley {[23, 11->20]}
+       [12] Arlington {[24, 12->21]}
+       [13] Boylston {[25, 13->22]}
+       [14] Park St {[26, 14->23]}
+       [15] Government Center {[27, 15->24]}
+       [16] Haymarket {[28, 16->25]}
+       [17] North Station {[29, 17->20]}
+       [18] Science Park {[30, 18->19]}
+       [19] Lechmere {[31, 19->20]}
+       [20] Union Square {[32, 20->21]}
+       [21] East Somerville {[33, 21->22]}
+       [22] Gilman Square {[34, 22->23]}
+       [23] Magoun Square {[35, 23->24]}
+       [24] Ball Square {[36, 24->25]}
+       [25] College Ave {[37, 25->20]}
+Command? Passengers on the train: {}
+TRAIN: [0] Heath St {[1, 0->5][2, 0->6][3, 0->7]}
+       [1] Back of the Hill {[4, 1->8][5, 1->9][38, 1->5]}
+       [2] Riverway {[6, 2->10][7, 2->11]}
+       [3] Mission Park {[8, 3->12][9, 3->13][39, 3->6]}
+       [4] Fenwood Rd {[10, 4->14][11, 4->15]}
+       [5] Brigham Circle {[12, 5->16][13, 5->17]}
+       [6] Longwood Medical {[14, 6->18][15, 6->19]}
+       [7] Museum of Fine Arts {[16, 7->20][17, 7->21]}
+       [8] Northeastern {[18, 8->22][19, 8->23]}
+       [9] Symphony {[20, 9->24][21, 9->25]}
+       [10] Prudential {[22, 10->20]}
+       [11] Copley {[23, 11->20]}
+       [12] Arlington {[24, 12->21]}
+       [13] Boylston {[25, 13->22]}
+       [14] Park St {[26, 14->23]}
+       [15] Government Center {[27, 15->24]}
+       [16] Haymarket {[28, 16->25]}
+       [17] North Station {[29, 17->20]}
+       [18] Science Park {[30, 18->19]}
+       [19] Lechmere {[31, 19->20]}
+       [20] Union Square {[32, 20->21]}
+       [21] East Somerville {[33, 21->22]}
+       [22] Gilman Square {[34, 22->23]}
+       [23] Magoun Square {[35, 23->24]}
+       [24] Ball Square {[36, 24->25]}
+       [25] College Ave {[37, 25->20]}
+Command? Passengers on the train: {}
+TRAIN: [0] Heath St {[1, 0->5][2, 0->6][3, 0->7]}
+       [1] Back of the Hill {[4, 1->8][5, 1->9][38, 1->5]}
+       [2] Riverway {[6, 2->10][7, 2->11]}
+       [3] Mission Park {[8, 3->12][9, 3->13][39, 3->6]}
+       [4] Fenwood Rd {[10, 4->14][11, 4->15]}
+       [5] Brigham Circle {[12, 5->16][13, 5->17]}
+       [6] Longwood Medical {[14, 6->18][15, 6->19]}
+       [7] Museum of Fine Arts {[16, 7->20][17, 7->21][40, 7->10]}
+       [8] Northeastern {[18, 8->22][19, 8->23]}
+       [9] Symphony {[20, 9->24][21, 9->25]}
+       [10] Prudential {[22, 10->20]}
+       [11] Copley {[23, 11->20]}
+       [12] Arlington {[24, 12->21]}
+       [13] Boylston {[25, 13->22]}
+       [14] Park St {[26, 14->23]}
+       [15] Government Center {[27, 15->24]}
+       [16] Haymarket {[28, 16->25]}
+       [17] North Station {[29, 17->20]}
+       [18] Science Park {[30, 18->19]}
+       [19] Lechmere {[31, 19->20]}
+       [20] Union Square {[32, 20->21]}
+       [21] East Somerville {[33, 21->22]}
+       [22] Gilman Square {[34, 22->23]}
+       [23] Magoun Square {[35, 23->24]}
+       [24] Ball Square {[36, 24->25]}
+       [25] College Ave {[37, 25->20]}
+Command? Passengers on the train: {}
+TRAIN: [0] Heath St {[1, 0->5][2, 0->6][3, 0->7]}
+       [1] Back of the Hill {[4, 1->8][5, 1->9][38, 1->5]}
+       [2] Riverway {[6, 2->10][7, 2->11]}
+       [3] Mission Park {[8, 3->12][9, 3->13][39, 3->6]}
+       [4] Fenwood Rd {[10, 4->14][11, 4->15]}
+       [5] Brigham Circle {[12, 5->16][13, 5->17]}
+       [6] Longwood Medical {[14, 6->18][15, 6->19]}
+       [7] Museum of Fine Arts {[16, 7->20][17, 7->21][40, 7->10]}
+       [8] Northeastern {[18, 8->22][19, 8->23]}
+       [9] Symphony {[20, 9->24][21, 9->25][41, 9->15]}
+       [10] Prudential {[22, 10->20]}
+       [11] Copley {[23, 11->20]}
+       [12] Arlington {[24, 12->21]}
+       [13] Boylston {[25, 13->22]}
+       [14] Park St {[26, 14->23]}
+       [15] Government Center {[27, 15->24]}
+       [16] Haymarket {[28, 16->25]}
+       [17] North Station {[29, 17->20]}
+       [18] Science Park {[30, 18->19]}
+       [19] Lechmere {[31, 19->20]}
+       [20] Union Square {[32, 20->21]}
+       [21] East Somerville {[33, 21->22]}
+       [22] Gilman Square {[34, 22->23]}
+       [23] Magoun Square {[35, 23->24]}
+       [24] Ball Square {[36, 24->25]}
+       [25] College Ave {[37, 25->20]}
+Command? Passengers on the train: {}
+TRAIN: [0] Heath St {[1, 0->5][2, 0->6][3, 0->7]}
+       [1] Back of the Hill {[4, 1->8][5, 1->9][38, 1->5]}
+       [2] Riverway {[6, 2->10][7, 2->11]}
+       [3] Mission Park {[8, 3->12][9, 3->13][39, 3->6]}
+       [4] Fenwood Rd {[10, 4->14][11, 4->15]}
+       [5] Brigham Circle {[12, 5->16][13, 5->17]}
+       [6] Longwood Medical {[14, 6->18][15, 6->19]}
+       [7] Museum of Fine Arts {[16, 7->20][17, 7->21][40, 7->10]}
+       [8] Northeastern {[18, 8->22][19, 8->23]}
+       [9] Symphony {[20, 9->24][21, 9->25][41, 9->15]}
+       [10] Prudential {[22, 10->20]}
+       [11] Copley {[23, 11->20]}
+       [12] Arlington {[24, 12->21]}
+       [13] Boylston {[25, 13->22][42, 13->18]}
+       [14] Park St {[26, 14->23]}
+       [15] Government Center {[27, 15->24]}
+       [16] Haymarket {[28, 16->25]}
+       [17] North Station {[29, 17->20]}
+       [18] Science Park {[30, 18->19]}
+       [19] Lechmere {[31, 19->20]}
+       [20] Union Square {[32, 20->21]}
+       [21] East Somerville {[33, 21->22]}
+       [22] Gilman Square {[34, 22->23]}
+       [23] Magoun Square {[35, 23->24]}
+       [24] Ball Square {[36, 24->25]}
+       [25] College Ave {[37, 25->20]}
+Command? Passengers on the train: {}
+TRAIN: [0] Heath St {[1, 0->5][2, 0->6][3, 0->7]}
+       [1] Back of the Hill {[4, 1->8][5, 1->9][38, 1->5]}
+       [2] Riverway {[6, 2->10][7, 2->11]}
+       [3] Mission Park {[8, 3->12][9, 3->13][39, 3->6]}
+       [4] Fenwood Rd {[10, 4->14][11, 4->15]}
+       [5] Brigham Circle {[12, 5->16][13, 5->17]}
+       [6] Longwood Medical {[14, 6->18][15, 6->19]}
+       [7] Museum of Fine Arts {[16, 7->20][17, 7->21][40, 7->10]}
+       [8] Northeastern {[18, 8->22][19, 8->23]}
+       [9] Symphony {[20, 9->24][21, 9->25][41, 9->15]}
+       [10] Prudential {[22, 10->20]}
+       [11] Copley {[23, 11->20]}
+       [12] Arlington {[24, 12->21]}
+       [13] Boylston {[25, 13->22][42, 13->18]}
+       [14] Park St {[26, 14->23]}
+       [15] Government Center {[27, 15->24]}
+       [16] Haymarket {[28, 16->25]}
+       [17] North Station {[29, 17->20][43, 17->22]}
+       [18] Science Park {[30, 18->19]}
+       [19] Lechmere {[31, 19->20]}
+       [20] Union Square {[32, 20->21]}
+       [21] East Somerville {[33, 21->22]}
+       [22] Gilman Square {[34, 22->23]}
+       [23] Magoun Square {[35, 23->24]}
+       [24] Ball Square {[36, 24->25]}
+       [25] College Ave {[37, 25->20]}
+Command? Passengers on the train: {}
+TRAIN: [0] Heath St {[1, 0->5][2, 0->6][3, 0->7]}
+       [1] Back of the Hill {[4, 1->8][5, 1->9][38, 1->5]}
+       [2] Riverway {[6, 2->10][7, 2->11]}
+       [3] Mission Park {[8, 3->12][9, 3->13][39, 3->6]}
+       [4] Fenwood Rd {[10, 4->14][11, 4->15]}
+       [5] Brigham Circle {[12, 5->16][13, 5->17]}
+       [6] Longwood Medical {[14, 6->18][15, 6->19]}
+       [7] Museum of Fine Arts {[16, 7->20][17, 7->21][40, 7->10]}
+       [8] Northeastern {[18, 8->22][19, 8->23]}
+       [9] Symphony {[20, 9->24][21, 9->25][41, 9->15]}
+       [10] Prudential {[22, 10->20]}
+       [11] Copley {[23, 11->20]}
+       [12] Arlington {[24, 12->21]}
+       [13] Boylston {[25, 13->22][42, 13->18]}
+       [14] Park St {[26, 14->23]}
+       [15] Government Center {[27, 15->24]}
+       [16] Haymarket {[28, 16->25]}
+       [17] North Station {[29, 17->20][43, 17->22]}
+       [18] Science Park {[30, 18->19]}
+       [19] Lechmere {[31, 19->20]}
+       [20] Union Square {[32, 20->21]}
+       [21] East Somerville {[33, 21->22][44, 21->25]}
+       [22] Gilman Square {[34, 22->23]}
+       [23] Magoun Square {[35, 23->24]}
+       [24] Ball Square {[36, 24->25]}
+       [25] College Ave {[37, 25->20]}
+Command? Passengers on the train: {}
+TRAIN: [0] Heath St {[1, 0->5][2, 0->6][3, 0->7]}
+       [1] Back of the Hill {[4, 1->8][5, 1->9][38, 1->5]}
+       [2] Riverway {[6, 2->10][7, 2->11]}
+       [3] Mission Park {[8, 3->12][9, 3->13][39, 3->6]}
+       [4] Fenwood Rd {[10, 4->14][11, 4->15]}
+       [5] Brigham Circle {[12, 5->16][13, 5->17]}
+       [6] Longwood Medical {[14, 6->18][15, 6->19]}
+       [7] Museum of Fine Arts {[16, 7->20][17, 7->21][40, 7->10]}
+       [8] Northeastern {[18, 8->22][19, 8->23]}
+       [9] Symphony {[20, 9->24][21, 9->25][41, 9->15]}
+       [10] Prudential {[22, 10->20]}
+       [11] Copley {[23, 11->20]}
+       [12] Arlington {[24, 12->21]}
+       [13] Boylston {[25, 13->22][42, 13->18]}
+       [14] Park St {[26, 14->23]}
+       [15] Government Center {[27, 15->24]}
+       [16] Haymarket {[28, 16->25]}
+       [17] North Station {[29, 17->20][43, 17->22]}
+       [18] Science Park {[30, 18->19]}
+       [19] Lechmere {[31, 19->20]}
+       [20] Union Square {[32, 20->21]}
+       [21] East Somerville {[33, 21->22][44, 21->25]}
+       [22] Gilman Square {[34, 22->23]}
+       [23] Magoun Square {[35, 23->24]}
+       [24] Ball Square {[36, 24->25][45, 24->20]}
+       [25] College Ave {[37, 25->20]}
+Command? Passengers on the train: {}
+TRAIN: [0] Heath St {[1, 0->5][2, 0->6][3, 0->7]}
+       [1] Back of the Hill {[4, 1->8][5, 1->9][38, 1->5]}
+       [2] Riverway {[6, 2->10][7, 2->11]}
+       [3] Mission Park {[8, 3->12][9, 3->13][39, 3->6]}
+       [4] Fenwood Rd {[10, 4->14][11, 4->15]}
+       [5] Brigham Circle {[12, 5->16][13, 5->17][46, 5->10]}
+       [6] Longwood Medical {[14, 6->18][15, 6->19]}
+       [7] Museum of Fine Arts {[16, 7->20][17, 7->21][40, 7->10]}
+       [8] Northeastern {[18, 8->22][19, 8->23]}
+       [9] Symphony {[20, 9->24][21, 9->25][41, 9->15]}
+       [10] Prudential {[22, 10->20]}
+       [11] Copley {[23, 11->20]}
+       [12] Arlington {[24, 12->21]}
+       [13] Boylston {[25, 13->22][42, 13->18]}
+       [14] Park St {[26, 14->23]}
+       [15] Government Center {[27, 15->24]}
+       [16] Haymarket {[28, 16->25]}
+       [17] North Station {[29, 17->20][43, 17->22]}
+       [18] Science Park {[30, 18->19]}
+       [19] Lechmere {[31, 19->20]}
+       [20] Union Square {[32, 20->21]}
+       [21] East Somerville {[33, 21->22][44, 21->25]}
+       [22] Gilman Square {[34, 22->23]}
+       [23] Magoun Square {[35, 23->24]}
+       [24] Ball Square {[36, 24->25][45, 24->20]}
+       [25] College Ave {[37, 25->20]}
+Command? Passengers on the train: {}
+TRAIN: [0] Heath St {[1, 0->5][2, 0->6][3, 0->7]}
+       [1] Back of the Hill {[4, 1->8][5, 1->9][38, 1->5]}
+       [2] Riverway {[6, 2->10][7, 2->11]}
+       [3] Mission Park {[8, 3->12][9, 3->13][39, 3->6]}
+       [4] Fenwood Rd {[10, 4->14][11, 4->15]}
+       [5] Brigham Circle {[12, 5->16][13, 5->17][46, 5->10]}
+       [6] Longwood Medical {[14, 6->18][15, 6->19]}
+       [7] Museum of Fine Arts {[16, 7->20][17, 7->21][40, 7->10]}
+       [8] Northeastern {[18, 8->22][19, 8->23][47, 8->14]}
+       [9] Symphony {[20, 9->24][21, 9->25][41, 9->15]}
+       [10] Prudential {[22, 10->20]}
+       [11] Copley {[23, 11->20]}
+       [12] Arlington {[24, 12->21]}
+       [13] Boylston {[25, 13->22][42, 13->18]}
+       [14] Park St {[26, 14->23]}
+       [15] Government Center {[27, 15->24]}
+       [16] Haymarket {[28, 16->25]}
+       [17] North Station {[29, 17->20][43, 17->22]}
+       [18] Science Park {[30, 18->19]}
+       [19] Lechmere {[31, 19->20]}
+       [20] Union Square {[32, 20->21]}
+       [21] East Somerville {[33, 21->22][44, 21->25]}
+       [22] Gilman Square {[34, 22->23]}
+       [23] Magoun Square {[35, 23->24]}
+       [24] Ball Square {[36, 24->25][45, 24->20]}
+       [25] College Ave {[37, 25->20]}
+Command? Passengers on the train: {}
+TRAIN: [0] Heath St {[1, 0->5][2, 0->6][3, 0->7]}
+       [1] Back of the Hill {[4, 1->8][5, 1->9][38, 1->5]}
+       [2] Riverway {[6, 2->10][7, 2->11]}
+       [3] Mission Park {[8, 3->12][9, 3->13][39, 3->6]}
+       [4] Fenwood Rd {[10, 4->14][11, 4->15]}
+       [5] Brigham Circle {[12, 5->16][13, 5->17][46, 5->10]}
+       [6] Longwood Medical {[14, 6->18][15, 6->19]}
+       [7] Museum of Fine Arts {[16, 7->20][17, 7->21][40, 7->10]}
+       [8] Northeastern {[18, 8->22][19, 8->23][47, 8->14]}
+       [9] Symphony {[20, 9->24][21, 9->25][41, 9->15]}
+       [10] Prudential {[22, 10->20]}
+       [11] Copley {[23, 11->20]}
+       [12] Arlington {[24, 12->21][48, 12->16]}
+       [13] Boylston {[25, 13->22][42, 13->18]}
+       [14] Park St {[26, 14->23]}
+       [15] Government Center {[27, 15->24]}
+       [16] Haymarket {[28, 16->25]}
+       [17] North Station {[29, 17->20][43, 17->22]}
+       [18] Science Park {[30, 18->19]}
+       [19] Lechmere {[31, 19->20]}
+       [20] Union Square {[32, 20->21]}
+       [21] East Somerville {[33, 21->22][44, 21->25]}
+       [22] Gilman Square {[34, 22->23]}
+       [23] Magoun Square {[35, 23->24]}
+       [24] Ball Square {[36, 24->25][45, 24->20]}
+       [25] College Ave {[37, 25->20]}
+Command? Passengers on the train: {}
+TRAIN: [0] Heath St {[1, 0->5][2, 0->6][3, 0->7]}
+       [1] Back of the Hill {[4, 1->8][5, 1->9][38, 1->5]}
+       [2] Riverway {[6, 2->10][7, 2->11]}
+       [3] Mission Park {[8, 3->12][9, 3->13][39, 3->6]}
+       [4] Fenwood Rd {[10, 4->14][11, 4->15]}
+       [5] Brigham Circle {[12, 5->16][13, 5->17][46, 5->10]}
+       [6] Longwood Medical {[14, 6->18][15, 6->19]}
+       [7] Museum of Fine Arts {[16, 7->20][17, 7->21][40, 7->10]}
+       [8] Northeastern {[18, 8->22][19, 8->23][47, 8->14]}
+       [9] Symphony {[20, 9->24][21, 9->25][41, 9->15]}
+       [10] Prudential {[22, 10->20]}
+       [11] Copley {[23, 11->20]}
+       [12] Arlington {[24, 12->21][48, 12->16]}
+       [13] Boylston {[25, 13->22][42, 13->18]}
+       [14] Park St {[26, 14->23]}
+       [15] Government Center {[27, 15->24]}
+       [16] Haymarket {[28, 16->25][49, 16->19]}
+       [17] North Station {[29, 17->20][43, 17->22]}
+       [18] Science Park {[30, 18->19]}
+       [19] Lechmere {[31, 19->20]}
+       [20] Union Square {[32, 20->21]}
+       [21] East Somerville {[33, 21->22][44, 21->25]}
+       [22] Gilman Square {[34, 22->23]}
+       [23] Magoun Square {[35, 23->24]}
+       [24] Ball Square {[36, 24->25][45, 24->20]}
+       [25] College Ave {[37, 25->20]}
+Command? Passengers on the train: {}
+TRAIN: [0] Heath St {[1, 0->5][2, 0->6][3, 0->7]}
+       [1] Back of the Hill {[4, 1->8][5, 1->9][38, 1->5]}
+       [2] Riverway {[6, 2->10][7, 2->11]}
+       [3] Mission Park {[8, 3->12][9, 3->13][39, 3->6]}
+       [4] Fenwood Rd {[10, 4->14][11, 4->15]}
+       [5] Brigham Circle {[12, 5->16][13, 5->17][46, 5->10]}
+       [6] Longwood Medical {[14, 6->18][15, 6->19]}
+       [7] Museum of Fine Arts {[16, 7->20][17, 7->21][40, 7->10]}
+       [8] Northeastern {[18, 8->22][19, 8->23][47, 8->14]}
+       [9] Symphony {[20, 9->24][21, 9->25][41, 9->15]}
+       [10] Prudential {[22, 10->20]}
+       [11] Copley {[23, 11->20]}
+       [12] Arlington {[24, 12->21][48, 12->16]}
+       [13] Boylston {[25, 13->22][42, 13->18]}
+       [14] Park St {[26, 14->23]}
+       [15] Government Center {[27, 15->24]}
+       [16] Haymarket {[28, 16->25][49, 16->19]}
+       [17] North Station {[29, 17->20][43, 17->22]}
+       [18] Science Park {[30, 18->19]}
+       [19] Lechmere {[31, 19->20]}
+       [20] Union Square {[32, 20->21][50, 20->23]}
+       [21] East Somerville {[33, 21->22][44, 21->25]}
+       [22] Gilman Square {[34, 22->23]}
+       [23] Magoun Square {[35, 23->24]}
+       [24] Ball Square {[36, 24->25][45, 24->20]}
+       [25] College Ave {[37, 25->20]}
+Command? Passengers on the train: {}
+TRAIN: [0] Heath St {[1, 0->5][2, 0->6][3, 0->7]}
+       [1] Back of the Hill {[4, 1->8][5, 1->9][38, 1->5]}
+       [2] Riverway {[6, 2->10][7, 2->11]}
+       [3] Mission Park {[8, 3->12][9, 3->13][39, 3->6]}
+       [4] Fenwood Rd {[10, 4->14][11, 4->15]}
+       [5] Brigham Circle {[12, 5->16][13, 5->17][46, 5->10]}
+       [6] Longwood Medical {[14, 6->18][15, 6->19]}
+       [7] Museum of Fine Arts {[16, 7->20][17, 7->21][40, 7->10]}
+       [8] Northeastern {[18, 8->22][19, 8->23][47, 8->14]}
+       [9] Symphony {[20, 9->24][21, 9->25][41, 9->15]}
+       [10] Prudential {[22, 10->20]}
+       [11] Copley {[23, 11->20]}
+       [12] Arlington {[24, 12->21][48, 12->16]}
+       [13] Boylston {[25, 13->22][42, 13->18]}
+       [14] Park St {[26, 14->23]}
+       [15] Government Center {[27, 15->24]}
+       [16] Haymarket {[28, 16->25][49, 16->19]}
+       [17] North Station {[29, 17->20][43, 17->22]}
+       [18] Science Park {[30, 18->19]}
+       [19] Lechmere {[31, 19->20]}
+       [20] Union Square {[32, 20->21][50, 20->23]}
+       [21] East Somerville {[33, 21->22][44, 21->25]}
+       [22] Gilman Square {[34, 22->23]}
+       [23] Magoun Square {[35, 23->24][51, 23->25]}
+       [24] Ball Square {[36, 24->25][45, 24->20]}
+       [25] College Ave {[37, 25->20]}
+Command? Passengers on the train: {[1, 0->5][2, 0->6][3, 0->7]}
+       [0] Heath St {}
+TRAIN: [1] Back of the Hill {[4, 1->8][5, 1->9][38, 1->5]}
+       [2] Riverway {[6, 2->10][7, 2->11]}
+       [3] Mission Park {[8, 3->12][9, 3->13][39, 3->6]}
+       [4] Fenwood Rd {[10, 4->14][11, 4->15]}
+       [5] Brigham Circle {[12, 5->16][13, 5->17][46, 5->10]}
+       [6] Longwood Medical {[14, 6->18][15, 6->19]}
+       [7] Museum of Fine Arts {[16, 7->20][17, 7->21][40, 7->10]}
+       [8] Northeastern {[18, 8->22][19, 8->23][47, 8->14]}
+       [9] Symphony {[20, 9->24][21, 9->25][41, 9->15]}
+       [10] Prudential {[22, 10->20]}
+       [11] Copley {[23, 11->20]}
+       [12] Arlington {[24, 12->21][48, 12->16]}
+       [13] Boylston {[25, 13->22][42, 13->18]}
+       [14] Park St {[26, 14->23]}
+       [15] Government Center {[27, 15->24]}
+       [16] Haymarket {[28, 16->25][49, 16->19]}
+       [17] North Station {[29, 17->20][43, 17->22]}
+       [18] Science Park {[30, 18->19]}
+       [19] Lechmere {[31, 19->20]}
+       [20] Union Square {[32, 20->21][50, 20->23]}
+       [21] East Somerville {[33, 21->22][44, 21->25]}
+       [22] Gilman Square {[34, 22->23]}
+       [23] Magoun Square {[35, 23->24][51, 23->25]}
+       [24] Ball Square {[36, 24->25][45, 24->20]}
+       [25] College Ave {[37, 25->20]}
+Command? Passengers on the train: {[1, 0->5][38, 1->5][2, 0->6][3, 0->7][4, 1->8][5, 1->9]}
+       [0] Heath St {}
+       [1] Back of the Hill {}
+TRAIN: [2] Riverway {[6, 2->10][7, 2->11]}
+       [3] Mission Park {[8, 3->12][9, 3->13][39, 3->6]}
+       [4] Fenwood Rd {[10, 4->14][11, 4->15]}
+       [5] Brigham Circle {[12, 5->16][13, 5->17][46, 5->10]}
+       [6] Longwood Medical {[14, 6->18][15, 6->19]}
+       [7] Museum of Fine Arts {[16, 7->20][17, 7->21][40, 7->10]}
+       [8] Northeastern {[18, 8->22][19, 8->23][47, 8->14]}
+       [9] Symphony {[20, 9->24][21, 9->25][41, 9->15]}
+       [10] Prudential {[22, 10->20]}
+       [11] Copley {[23, 11->20]}
+       [12] Arlington {[24, 12->21][48, 12->16]}
+       [13] Boylston {[25, 13->22][42, 13->18]}
+       [14] Park St {[26, 14->23]}
+       [15] Government Center {[27, 15->24]}
+       [16] Haymarket {[28, 16->25][49, 16->19]}
+       [17] North Station {[29, 17->20][43, 17->22]}
+       [18] Science Park {[30, 18->19]}
+       [19] Lechmere {[31, 19->20]}
+       [20] Union Square {[32, 20->21][50, 20->23]}
+       [21] East Somerville {[33, 21->22][44, 21->25]}
+       [22] Gilman Square {[34, 22->23]}
+       [23] Magoun Square {[35, 23->24][51, 23->25]}
+       [24] Ball Square {[36, 24->25][45, 24->20]}
+       [25] College Ave {[37, 25->20]}
+Command? Passengers on the train: {[1, 0->5][38, 1->5][2, 0->6][3, 0->7][4, 1->8][5, 1->9][6, 2->10][7, 2->11]}
+       [0] Heath St {}
+       [1] Back of the Hill {}
+       [2] Riverway {}
+TRAIN: [3] Mission Park {[8, 3->12][9, 3->13][39, 3->6]}
+       [4] Fenwood Rd {[10, 4->14][11, 4->15]}
+       [5] Brigham Circle {[12, 5->16][13, 5->17][46, 5->10]}
+       [6] Longwood Medical {[14, 6->18][15, 6->19]}
+       [7] Museum of Fine Arts {[16, 7->20][17, 7->21][40, 7->10]}
+       [8] Northeastern {[18, 8->22][19, 8->23][47, 8->14]}
+       [9] Symphony {[20, 9->24][21, 9->25][41, 9->15]}
+       [10] Prudential {[22, 10->20]}
+       [11] Copley {[23, 11->20]}
+       [12] Arlington {[24, 12->21][48, 12->16]}
+       [13] Boylston {[25, 13->22][42, 13->18]}
+       [14] Park St {[26, 14->23]}
+       [15] Government Center {[27, 15->24]}
+       [16] Haymarket {[28, 16->25][49, 16->19]}
+       [17] North Station {[29, 17->20][43, 17->22]}
+       [18] Science Park {[30, 18->19]}
+       [19] Lechmere {[31, 19->20]}
+       [20] Union Square {[32, 20->21][50, 20->23]}
+       [21] East Somerville {[33, 21->22][44, 21->25]}
+       [22] Gilman Square {[34, 22->23]}
+       [23] Magoun Square {[35, 23->24][51, 23->25]}
+       [24] Ball Square {[36, 24->25][45, 24->20]}
+       [25] College Ave {[37, 25->20]}
+Command? Passengers on the train: {[1, 0->5][38, 1->5][2, 0->6][39, 3->6][3, 0->7][4, 1->8][5, 1->9][6, 2->10][7, 2->11][8, 3->12][9, 3->13]}
+       [0] Heath St {}
+       [1] Back of the Hill {}
+       [2] Riverway {}
+       [3] Mission Park {}
+TRAIN: [4] Fenwood Rd {[10, 4->14][11, 4->15]}
+       [5] Brigham Circle {[12, 5->16][13, 5->17][46, 5->10]}
+       [6] Longwood Medical {[14, 6->18][15, 6->19]}
+       [7] Museum of Fine Arts {[16, 7->20][17, 7->21][40, 7->10]}
+       [8] Northeastern {[18, 8->22][19, 8->23][47, 8->14]}
+       [9] Symphony {[20, 9->24][21, 9->25][41, 9->15]}
+       [10] Prudential {[22, 10->20]}
+       [11] Copley {[23, 11->20]}
+       [12] Arlington {[24, 12->21][48, 12->16]}
+       [13] Boylston {[25, 13->22][42, 13->18]}
+       [14] Park St {[26, 14->23]}
+       [15] Government Center {[27, 15->24]}
+       [16] Haymarket {[28, 16->25][49, 16->19]}
+       [17] North Station {[29, 17->20][43, 17->22]}
+       [18] Science Park {[30, 18->19]}
+       [19] Lechmere {[31, 19->20]}
+       [20] Union Square {[32, 20->21][50, 20->23]}
+       [21] East Somerville {[33, 21->22][44, 21->25]}
+       [22] Gilman Square {[34, 22->23]}
+       [23] Magoun Square {[35, 23->24][51, 23->25]}
+       [24] Ball Square {[36, 24->25][45, 24->20]}
+       [25] College Ave {[37, 25->20]}
+Command? Passengers on the train: {[2, 0->6][39, 3->6][3, 0->7][4, 1->8][5, 1->9][6, 2->10][7, 2->11][8, 3->12][9, 3->13][10, 4->14][11, 4->15]}
+       [0] Heath St {}
+       [1] Back of the Hill {}
+       [2] Riverway {}
+       [3] Mission Park {}
+       [4] Fenwood Rd {}
+TRAIN: [5] Brigham Circle {[12, 5->16][13, 5->17][46, 5->10]}
+       [6] Longwood Medical {[14, 6->18][15, 6->19]}
+       [7] Museum of Fine Arts {[16, 7->20][17, 7->21][40, 7->10]}
+       [8] Northeastern {[18, 8->22][19, 8->23][47, 8->14]}
+       [9] Symphony {[20, 9->24][21, 9->25][41, 9->15]}
+       [10] Prudential {[22, 10->20]}
+       [11] Copley {[23, 11->20]}
+       [12] Arlington {[24, 12->21][48, 12->16]}
+       [13] Boylston {[25, 13->22][42, 13->18]}
+       [14] Park St {[26, 14->23]}
+       [15] Government Center {[27, 15->24]}
+       [16] Haymarket {[28, 16->25][49, 16->19]}
+       [17] North Station {[29, 17->20][43, 17->22]}
+       [18] Science Park {[30, 18->19]}
+       [19] Lechmere {[31, 19->20]}
+       [20] Union Square {[32, 20->21][50, 20->23]}
+       [21] East Somerville {[33, 21->22][44, 21->25]}
+       [22] Gilman Square {[34, 22->23]}
+       [23] Magoun Square {[35, 23->24][51, 23->25]}
+       [24] Ball Square {[36, 24->25][45, 24->20]}
+       [25] College Ave {[37, 25->20]}
+Command? Passengers on the train: {[3, 0->7][4, 1->8][5, 1->9][6, 2->10][46, 5->10][7, 2->11][8, 3->12][9, 3->13][10, 4->14][11, 4->15][12, 5->16][13, 5->17]}
+       [0] Heath St {}
+       [1] Back of the Hill {}
+       [2] Riverway {}
+       [3] Mission Park {}
+       [4] Fenwood Rd {}
+       [5] Brigham Circle {}
+TRAIN: [6] Longwood Medical {[14, 6->18][15, 6->19]}
+       [7] Museum of Fine Arts {[16, 7->20][17, 7->21][40, 7->10]}
+       [8] Northeastern {[18, 8->22][19, 8->23][47, 8->14]}
+       [9] Symphony {[20, 9->24][21, 9->25][41, 9->15]}
+       [10] Prudential {[22, 10->20]}
+       [11] Copley {[23, 11->20]}
+       [12] Arlington {[24, 12->21][48, 12->16]}
+       [13] Boylston {[25, 13->22][42, 13->18]}
+       [14] Park St {[26, 14->23]}
+       [15] Government Center {[27, 15->24]}
+       [16] Haymarket {[28, 16->25][49, 16->19]}
+       [17] North Station {[29, 17->20][43, 17->22]}
+       [18] Science Park {[30, 18->19]}
+       [19] Lechmere {[31, 19->20]}
+       [20] Union Square {[32, 20->21][50, 20->23]}
+       [21] East Somerville {[33, 21->22][44, 21->25]}
+       [22] Gilman Square {[34, 22->23]}
+       [23] Magoun Square {[35, 23->24][51, 23->25]}
+       [24] Ball Square {[36, 24->25][45, 24->20]}
+       [25] College Ave {[37, 25->20]}
+Command? Passengers on the train: {[4, 1->8][5, 1->9][6, 2->10][46, 5->10][7, 2->11][8, 3->12][9, 3->13][10, 4->14][11, 4->15][12, 5->16][13, 5->17][14, 6->18][15, 6->19]}
+       [0] Heath St {}
+       [1] Back of the Hill {}
+       [2] Riverway {}
+       [3] Mission Park {}
+       [4] Fenwood Rd {}
+       [5] Brigham Circle {}
+       [6] Longwood Medical {}
+TRAIN: [7] Museum of Fine Arts {[16, 7->20][17, 7->21][40, 7->10]}
+       [8] Northeastern {[18, 8->22][19, 8->23][47, 8->14]}
+       [9] Symphony {[20, 9->24][21, 9->25][41, 9->15]}
+       [10] Prudential {[22, 10->20]}
+       [11] Copley {[23, 11->20]}
+       [12] Arlington {[24, 12->21][48, 12->16]}
+       [13] Boylston {[25, 13->22][42, 13->18]}
+       [14] Park St {[26, 14->23]}
+       [15] Government Center {[27, 15->24]}
+       [16] Haymarket {[28, 16->25][49, 16->19]}
+       [17] North Station {[29, 17->20][43, 17->22]}
+       [18] Science Park {[30, 18->19]}
+       [19] Lechmere {[31, 19->20]}
+       [20] Union Square {[32, 20->21][50, 20->23]}
+       [21] East Somerville {[33, 21->22][44, 21->25]}
+       [22] Gilman Square {[34, 22->23]}
+       [23] Magoun Square {[35, 23->24][51, 23->25]}
+       [24] Ball Square {[36, 24->25][45, 24->20]}
+       [25] College Ave {[37, 25->20]}
+Command? Passengers on the train: {[5, 1->9][6, 2->10][46, 5->10][40, 7->10][7, 2->11][8, 3->12][9, 3->13][10, 4->14][11, 4->15][12, 5->16][13, 5->17][14, 6->18][15, 6->19][16, 7->20][17, 7->21]}
+       [0] Heath St {}
+       [1] Back of the Hill {}
+       [2] Riverway {}
+       [3] Mission Park {}
+       [4] Fenwood Rd {}
+       [5] Brigham Circle {}
+       [6] Longwood Medical {}
+       [7] Museum of Fine Arts {}
+TRAIN: [8] Northeastern {[18, 8->22][19, 8->23][47, 8->14]}
+       [9] Symphony {[20, 9->24][21, 9->25][41, 9->15]}
+       [10] Prudential {[22, 10->20]}
+       [11] Copley {[23, 11->20]}
+       [12] Arlington {[24, 12->21][48, 12->16]}
+       [13] Boylston {[25, 13->22][42, 13->18]}
+       [14] Park St {[26, 14->23]}
+       [15] Government Center {[27, 15->24]}
+       [16] Haymarket {[28, 16->25][49, 16->19]}
+       [17] North Station {[29, 17->20][43, 17->22]}
+       [18] Science Park {[30, 18->19]}
+       [19] Lechmere {[31, 19->20]}
+       [20] Union Square {[32, 20->21][50, 20->23]}
+       [21] East Somerville {[33, 21->22][44, 21->25]}
+       [22] Gilman Square {[34, 22->23]}
+       [23] Magoun Square {[35, 23->24][51, 23->25]}
+       [24] Ball Square {[36, 24->25][45, 24->20]}
+       [25] College Ave {[37, 25->20]}
+Command? Passengers on the train: {[6, 2->10][46, 5->10][40, 7->10][7, 2->11][8, 3->12][9, 3->13][10, 4->14][47, 8->14][11, 4->15][12, 5->16][13, 5->17][14, 6->18][15, 6->19][16, 7->20][17, 7->21][18, 8->22][19, 8->23]}
+       [0] Heath St {}
+       [1] Back of the Hill {}
+       [2] Riverway {}
+       [3] Mission Park {}
+       [4] Fenwood Rd {}
+       [5] Brigham Circle {}
+       [6] Longwood Medical {}
+       [7] Museum of Fine Arts {}
+       [8] Northeastern {}
+TRAIN: [9] Symphony {[20, 9->24][21, 9->25][41, 9->15]}
+       [10] Prudential {[22, 10->20]}
+       [11] Copley {[23, 11->20]}
+       [12] Arlington {[24, 12->21][48, 12->16]}
+       [13] Boylston {[25, 13->22][42, 13->18]}
+       [14] Park St {[26, 14->23]}
+       [15] Government Center {[27, 15->24]}
+       [16] Haymarket {[28, 16->25][49, 16->19]}
+       [17] North Station {[29, 17->20][43, 17->22]}
+       [18] Science Park {[30, 18->19]}
+       [19] Lechmere {[31, 19->20]}
+       [20] Union Square {[32, 20->21][50, 20->23]}
+       [21] East Somerville {[33, 21->22][44, 21->25]}
+       [22] Gilman Square {[34, 22->23]}
+       [23] Magoun Square {[35, 23->24][51, 23->25]}
+       [24] Ball Square {[36, 24->25][45, 24->20]}
+       [25] College Ave {[37, 25->20]}
+Command? Passengers on the train: {[7, 2->11][8, 3->12][9, 3->13][10, 4->14][47, 8->14][11, 4->15][41, 9->15][12, 5->16][13, 5->17][14, 6->18][15, 6->19][16, 7->20][17, 7->21][18, 8->22][19, 8->23][20, 9->24][21, 9->25]}
+       [0] Heath St {}
+       [1] Back of the Hill {}
+       [2] Riverway {}
+       [3] Mission Park {}
+       [4] Fenwood Rd {}
+       [5] Brigham Circle {}
+       [6] Longwood Medical {}
+       [7] Museum of Fine Arts {}
+       [8] Northeastern {}
+       [9] Symphony {}
+TRAIN: [10] Prudential {[22, 10->20]}
+       [11] Copley {[23, 11->20]}
+       [12] Arlington {[24, 12->21][48, 12->16]}
+       [13] Boylston {[25, 13->22][42, 13->18]}
+       [14] Park St {[26, 14->23]}
+       [15] Government Center {[27, 15->24]}
+       [16] Haymarket {[28, 16->25][49, 16->19]}
+       [17] North Station {[29, 17->20][43, 17->22]}
+       [18] Science Park {[30, 18->19]}
+       [19] Lechmere {[31, 19->20]}
+       [20] Union Square {[32, 20->21][50, 20->23]}
+       [21] East Somerville {[33, 21->22][44, 21->25]}
+       [22] Gilman Square {[34, 22->23]}
+       [23] Magoun Square {[35, 23->24][51, 23->25]}
+       [24] Ball Square {[36, 24->25][45, 24->20]}
+       [25] College Ave {[37, 25->20]}
+Command? Passengers on the train: {[8, 3->12][9, 3->13][10, 4->14][47, 8->14][11, 4->15][41, 9->15][12, 5->16][13, 5->17][14, 6->18][15, 6->19][16, 7->20][22, 10->20][17, 7->21][18, 8->22][19, 8->23][20, 9->24][21, 9->25]}
+       [0] Heath St {}
+       [1] Back of the Hill {}
+       [2] Riverway {}
+       [3] Mission Park {}
+       [4] Fenwood Rd {}
+       [5] Brigham Circle {}
+       [6] Longwood Medical {}
+       [7] Museum of Fine Arts {}
+       [8] Northeastern {}
+       [9] Symphony {}
+       [10] Prudential {}
+TRAIN: [11] Copley {[23, 11->20]}
+       [12] Arlington {[24, 12->21][48, 12->16]}
+       [13] Boylston {[25, 13->22][42, 13->18]}
+       [14] Park St {[26, 14->23]}
+       [15] Government Center {[27, 15->24]}
+       [16] Haymarket {[28, 16->25][49, 16->19]}
+       [17] North Station {[29, 17->20][43, 17->22]}
+       [18] Science Park {[30, 18->19]}
+       [19] Lechmere {[31, 19->20]}
+       [20] Union Square {[32, 20->21][50, 20->23]}
+       [21] East Somerville {[33, 21->22][44, 21->25]}
+       [22] Gilman Square {[34, 22->23]}
+       [23] Magoun Square {[35, 23->24][51, 23->25]}
+       [24] Ball Square {[36, 24->25][45, 24->20]}
+       [25] College Ave {[37, 25->20]}
+Command? Passengers on the train: {[9, 3->13][10, 4->14][47, 8->14][11, 4->15][41, 9->15][12, 5->16][13, 5->17][14, 6->18][15, 6->19][16, 7->20][22, 10->20][23, 11->20][17, 7->21][18, 8->22][19, 8->23][20, 9->24][21, 9->25]}
+       [0] Heath St {}
+       [1] Back of the Hill {}
+       [2] Riverway {}
+       [3] Mission Park {}
+       [4] Fenwood Rd {}
+       [5] Brigham Circle {}
+       [6] Longwood Medical {}
+       [7] Museum of Fine Arts {}
+       [8] Northeastern {}
+       [9] Symphony {}
+       [10] Prudential {}
+       [11] Copley {}
+TRAIN: [12] Arlington {[24, 12->21][48, 12->16]}
+       [13] Boylston {[25, 13->22][42, 13->18]}
+       [14] Park St {[26, 14->23]}
+       [15] Government Center {[27, 15->24]}
+       [16] Haymarket {[28, 16->25][49, 16->19]}
+       [17] North Station {[29, 17->20][43, 17->22]}
+       [18] Science Park {[30, 18->19]}
+       [19] Lechmere {[31, 19->20]}
+       [20] Union Square {[32, 20->21][50, 20->23]}
+       [21] East Somerville {[33, 21->22][44, 21->25]}
+       [22] Gilman Square {[34, 22->23]}
+       [23] Magoun Square {[35, 23->24][51, 23->25]}
+       [24] Ball Square {[36, 24->25][45, 24->20]}
+       [25] College Ave {[37, 25->20]}
+Command? Passengers on the train: {[10, 4->14][47, 8->14][11, 4->15][41, 9->15][12, 5->16][48, 12->16][13, 5->17][14, 6->18][15, 6->19][16, 7->20][22, 10->20][23, 11->20][17, 7->21][24, 12->21][18, 8->22][19, 8->23][20, 9->24][21, 9->25]}
+       [0] Heath St {}
+       [1] Back of the Hill {}
+       [2] Riverway {}
+       [3] Mission Park {}
+       [4] Fenwood Rd {}
+       [5] Brigham Circle {}
+       [6] Longwood Medical {}
+       [7] Museum of Fine Arts {}
+       [8] Northeastern {}
+       [9] Symphony {}
+       [10] Prudential {}
+       [11] Copley {}
+       [12] Arlington {}
+TRAIN: [13] Boylston {[25, 13->22][42, 13->18]}
+       [14] Park St {[26, 14->23]}
+       [15] Government Center {[27, 15->24]}
+       [16] Haymarket {[28, 16->25][49, 16->19]}
+       [17] North Station {[29, 17->20][43, 17->22]}
+       [18] Science Park {[30, 18->19]}
+       [19] Lechmere {[31, 19->20]}
+       [20] Union Square {[32, 20->21][50, 20->23]}
+       [21] East Somerville {[33, 21->22][44, 21->25]}
+       [22] Gilman Square {[34, 22->23]}
+       [23] Magoun Square {[35, 23->24][51, 23->25]}
+       [24] Ball Square {[36, 24->25][45, 24->20]}
+       [25] College Ave {[37, 25->20]}
+Command? Passengers on the train: {[11, 4->15][41, 9->15][12, 5->16][48, 12->16][13, 5->17][14, 6->18][42, 13->18][15, 6->19][16, 7->20][22, 10->20][23, 11->20][17, 7->21][24, 12->21][18, 8->22][25, 13->22][19, 8->23][20, 9->24][21, 9->25]}
+       [0] Heath St {}
+       [1] Back of the Hill {}
+       [2] Riverway {}
+       [3] Mission Park {}
+       [4] Fenwood Rd {}
+       [5] Brigham Circle {}
+       [6] Longwood Medical {}
+       [7] Museum of Fine Arts {}
+       [8] Northeastern {}
+       [9] Symphony {}
+       [10] Prudential {}
+       [11] Copley {}
+       [12] Arlington {}
+       [13] Boylston {}
+TRAIN: [14] Park St {[26, 14->23]}
+       [15] Government Center {[27, 15->24]}
+       [16] Haymarket {[28, 16->25][49, 16->19]}
+       [17] North Station {[29, 17->20][43, 17->22]}
+       [18] Science Park {[30, 18->19]}
+       [19] Lechmere {[31, 19->20]}
+       [20] Union Square {[32, 20->21][50, 20->23]}
+       [21] East Somerville {[33, 21->22][44, 21->25]}
+       [22] Gilman Square {[34, 22->23]}
+       [23] Magoun Square {[35, 23->24][51, 23->25]}
+       [24] Ball Square {[36, 24->25][45, 24->20]}
+       [25] College Ave {[37, 25->20]}
+Command? Passengers on the train: {[12, 5->16][48, 12->16][13, 5->17][14, 6->18][42, 13->18][15, 6->19][16, 7->20][22, 10->20][23, 11->20][17, 7->21][24, 12->21][18, 8->22][25, 13->22][19, 8->23][26, 14->23][20, 9->24][21, 9->25]}
+       [0] Heath St {}
+       [1] Back of the Hill {}
+       [2] Riverway {}
+       [3] Mission Park {}
+       [4] Fenwood Rd {}
+       [5] Brigham Circle {}
+       [6] Longwood Medical {}
+       [7] Museum of Fine Arts {}
+       [8] Northeastern {}
+       [9] Symphony {}
+       [10] Prudential {}
+       [11] Copley {}
+       [12] Arlington {}
+       [13] Boylston {}
+       [14] Park St {}
+TRAIN: [15] Government Center {[27, 15->24]}
+       [16] Haymarket {[28, 16->25][49, 16->19]}
+       [17] North Station {[29, 17->20][43, 17->22]}
+       [18] Science Park {[30, 18->19]}
+       [19] Lechmere {[31, 19->20]}
+       [20] Union Square {[32, 20->21][50, 20->23]}
+       [21] East Somerville {[33, 21->22][44, 21->25]}
+       [22] Gilman Square {[34, 22->23]}
+       [23] Magoun Square {[35, 23->24][51, 23->25]}
+       [24] Ball Square {[36, 24->25][45, 24->20]}
+       [25] College Ave {[37, 25->20]}
+Command? Passengers on the train: {[13, 5->17][14, 6->18][42, 13->18][15, 6->19][16, 7->20][22, 10->20][23, 11->20][17, 7->21][24, 12->21][18, 8->22][25, 13->22][19, 8->23][26, 14->23][20, 9->24][27, 15->24][21, 9->25]}
+       [0] Heath St {}
+       [1] Back of the Hill {}
+       [2] Riverway {}
+       [3] Mission Park {}
+       [4] Fenwood Rd {}
+       [5] Brigham Circle {}
+       [6] Longwood Medical {}
+       [7] Museum of Fine Arts {}
+       [8] Northeastern {}
+       [9] Symphony {}
+       [10] Prudential {}
+       [11] Copley {}
+       [12] Arlington {}
+       [13] Boylston {}
+       [14] Park St {}
+       [15] Government Center {}
+TRAIN: [16] Haymarket {[28, 16->25][49, 16->19]}
+       [17] North Station {[29, 17->20][43, 17->22]}
+       [18] Science Park {[30, 18->19]}
+       [19] Lechmere {[31, 19->20]}
+       [20] Union Square {[32, 20->21][50, 20->23]}
+       [21] East Somerville {[33, 21->22][44, 21->25]}
+       [22] Gilman Square {[34, 22->23]}
+       [23] Magoun Square {[35, 23->24][51, 23->25]}
+       [24] Ball Square {[36, 24->25][45, 24->20]}
+       [25] College Ave {[37, 25->20]}
+Command? Passengers on the train: {[14, 6->18][42, 13->18][15, 6->19][49, 16->19][16, 7->20][22, 10->20][23, 11->20][17, 7->21][24, 12->21][18, 8->22][25, 13->22][19, 8->23][26, 14->23][20, 9->24][27, 15->24][21, 9->25][28, 16->25]}
+       [0] Heath St {}
+       [1] Back of the Hill {}
+       [2] Riverway {}
+       [3] Mission Park {}
+       [4] Fenwood Rd {}
+       [5] Brigham Circle {}
+       [6] Longwood Medical {}
+       [7] Museum of Fine Arts {}
+       [8] Northeastern {}
+       [9] Symphony {}
+       [10] Prudential {}
+       [11] Copley {}
+       [12] Arlington {}
+       [13] Boylston {}
+       [14] Park St {}
+       [15] Government Center {}
+       [16] Haymarket {}
+TRAIN: [17] North Station {[29, 17->20][43, 17->22]}
+       [18] Science Park {[30, 18->19]}
+       [19] Lechmere {[31, 19->20]}
+       [20] Union Square {[32, 20->21][50, 20->23]}
+       [21] East Somerville {[33, 21->22][44, 21->25]}
+       [22] Gilman Square {[34, 22->23]}
+       [23] Magoun Square {[35, 23->24][51, 23->25]}
+       [24] Ball Square {[36, 24->25][45, 24->20]}
+       [25] College Ave {[37, 25->20]}
+Command? Passengers on the train: {[15, 6->19][49, 16->19][16, 7->20][22, 10->20][23, 11->20][29, 17->20][17, 7->21][24, 12->21][18, 8->22][25, 13->22][43, 17->22][19, 8->23][26, 14->23][20, 9->24][27, 15->24][21, 9->25][28, 16->25]}
+       [0] Heath St {}
+       [1] Back of the Hill {}
+       [2] Riverway {}
+       [3] Mission Park {}
+       [4] Fenwood Rd {}
+       [5] Brigham Circle {}
+       [6] Longwood Medical {}
+       [7] Museum of Fine Arts {}
+       [8] Northeastern {}
+       [9] Symphony {}
+       [10] Prudential {}
+       [11] Copley {}
+       [12] Arlington {}
+       [13] Boylston {}
+       [14] Park St {}
+       [15] Government Center {}
+       [16] Haymarket {}
+       [17] North Station {}
+TRAIN: [18] Science Park {[30, 18->19]}
+       [19] Lechmere {[31, 19->20]}
+       [20] Union Square {[32, 20->21][50, 20->23]}
+       [21] East Somerville {[33, 21->22][44, 21->25]}
+       [22] Gilman Square {[34, 22->23]}
+       [23] Magoun Square {[35, 23->24][51, 23->25]}
+       [24] Ball Square {[36, 24->25][45, 24->20]}
+       [25] College Ave {[37, 25->20]}
+Command? Passengers on the train: {[16, 7->20][22, 10->20][23, 11->20][29, 17->20][17, 7->21][24, 12->21][18, 8->22][25, 13->22][43, 17->22][19, 8->23][26, 14->23][20, 9->24][27, 15->24][21, 9->25][28, 16->25]}
+       [0] Heath St {}
+       [1] Back of the Hill {}
+       [2] Riverway {}
+       [3] Mission Park {}
+       [4] Fenwood Rd {}
+       [5] Brigham Circle {}
+       [6] Longwood Medical {}
+       [7] Museum of Fine Arts {}
+       [8] Northeastern {}
+       [9] Symphony {}
+       [10] Prudential {}
+       [11] Copley {}
+       [12] Arlington {}
+       [13] Boylston {}
+       [14] Park St {}
+       [15] Government Center {}
+       [16] Haymarket {}
+       [17] North Station {}
+       [18] Science Park {}
+TRAIN: [19] Lechmere {[31, 19->20]}
+       [20] Union Square {[32, 20->21][50, 20->23]}
+       [21] East Somerville {[33, 21->22][44, 21->25]}
+       [22] Gilman Square {[34, 22->23]}
+       [23] Magoun Square {[35, 23->24][51, 23->25]}
+       [24] Ball Square {[36, 24->25][45, 24->20]}
+       [25] College Ave {[37, 25->20]}
+Command? Passengers on the train: {[17, 7->21][24, 12->21][18, 8->22][25, 13->22][43, 17->22][19, 8->23][26, 14->23][20, 9->24][27, 15->24][21, 9->25][28, 16->25]}
+       [0] Heath St {}
+       [1] Back of the Hill {}
+       [2] Riverway {}
+       [3] Mission Park {}
+       [4] Fenwood Rd {}
+       [5] Brigham Circle {}
+       [6] Longwood Medical {}
+       [7] Museum of Fine Arts {}
+       [8] Northeastern {}
+       [9] Symphony {}
+       [10] Prudential {}
+       [11] Copley {}
+       [12] Arlington {}
+       [13] Boylston {}
+       [14] Park St {}
+       [15] Government Center {}
+       [16] Haymarket {}
+       [17] North Station {}
+       [18] Science Park {}
+       [19] Lechmere {}
+TRAIN: [20] Union Square {[32, 20->21][50, 20->23]}
+       [21] East Somerville {[33, 21->22][44, 21->25]}
+       [22] Gilman Square {[34, 22->23]}
+       [23] Magoun Square {[35, 23->24][51, 23->25]}
+       [24] Ball Square {[36, 24->25][45, 24->20]}
+       [25] College Ave {[37, 25->20]}
+Command? Passengers on the train: {[18, 8->22][25, 13->22][43, 17->22][19, 8->23][26, 14->23][50, 20->23][20, 9->24][27, 15->24][21, 9->25][28, 16->25]}
+       [0] Heath St {}
+       [1] Back of the Hill {}
+       [2] Riverway {}
+       [3] Mission Park {}
+       [4] Fenwood Rd {}
+       [5] Brigham Circle {}
+       [6] Longwood Medical {}
+       [7] Museum of Fine Arts {}
+       [8] Northeastern {}
+       [9] Symphony {}
+       [10] Prudential {}
+       [11] Copley {}
+       [12] Arlington {}
+       [13] Boylston {}
+       [14] Park St {}
+       [15] Government Center {}
+       [16] Haymarket {}
+       [17] North Station {}
+       [18] Science Park {}
+       [19] Lechmere {}
+       [20] Union Square {}
+TRAIN: [21] East Somerville {[33, 21->22][44, 21->25]}
+       [22] Gilman Square {[34, 22->23]}
+       [23] Magoun Square {[35, 23->24][51, 23->25]}
+       [24] Ball Square {[36, 24->25][45, 24->20]}
+       [25] College Ave {[37, 25->20]}
+Command? Passengers on the train: {[19, 8->23][26, 14->23][50, 20->23][20, 9->24][27, 15->24][21, 9->25][28, 16->25][44, 21->25]}
+       [0] Heath St {}
+       [1] Back of the Hill {}
+       [2] Riverway {}
+       [3] Mission Park {}
+       [4] Fenwood Rd {}
+       [5] Brigham Circle {}
+       [6] Longwood Medical {}
+       [7] Museum of Fine Arts {}
+       [8] Northeastern {}
+       [9] Symphony {}
+       [10] Prudential {}
+       [11] Copley {}
+       [12] Arlington {}
+       [13] Boylston {}
+       [14] Park St {}
+       [15] Government Center {}
+       [16] Haymarket {}
+       [17] North Station {}
+       [18] Science Park {}
+       [19] Lechmere {}
+       [20] Union Square {}
+       [21] East Somerville {}
+TRAIN: [22] Gilman Square {[34, 22->23]}
+       [23] Magoun Square {[35, 23->24][51, 23->25]}
+       [24] Ball Square {[36, 24->25][45, 24->20]}
+       [25] College Ave {[37, 25->20]}
+Command? Passengers on the train: {[20, 9->24][27, 15->24][21, 9->25][28, 16->25][44, 21->25]}
+       [0] Heath St {}
+       [1] Back of the Hill {}
+       [2] Riverway {}
+       [3] Mission Park {}
+       [4] Fenwood Rd {}
+       [5] Brigham Circle {}
+       [6] Longwood Medical {}
+       [7] Museum of Fine Arts {}
+       [8] Northeastern {}
+       [9] Symphony {}
+       [10] Prudential {}
+       [11] Copley {}
+       [12] Arlington {}
+       [13] Boylston {}
+       [14] Park St {}
+       [15] Government Center {}
+       [16] Haymarket {}
+       [17] North Station {}
+       [18] Science Park {}
+       [19] Lechmere {}
+       [20] Union Square {}
+       [21] East Somerville {}
+       [22] Gilman Square {}
+TRAIN: [23] Magoun Square {[35, 23->24][51, 23->25]}
+       [24] Ball Square {[36, 24->25][45, 24->20]}
+       [25] College Ave {[37, 25->20]}
+Command? Passengers on the train: {[21, 9->25][28, 16->25][44, 21->25][51, 23->25]}
+       [0] Heath St {}
+       [1] Back of the Hill {}
+       [2] Riverway {}
+       [3] Mission Park {}
+       [4] Fenwood Rd {}
+       [5] Brigham Circle {}
+       [6] Longwood Medical {}
+       [7] Museum of Fine Arts {}
+       [8] Northeastern {}
+       [9] Symphony {}
+       [10] Prudential {}
+       [11] Copley {}
+       [12] Arlington {}
+       [13] Boylston {}
+       [14] Park St {}
+       [15] Government Center {}
+       [16] Haymarket {}
+       [17] North Station {}
+       [18] Science Park {}
+       [19] Lechmere {}
+       [20] Union Square {}
+       [21] East Somerville {}
+       [22] Gilman Square {}
+       [23] Magoun Square {}
+TRAIN: [24] Ball Square {[36, 24->25][45, 24->20]}
+       [25] College Ave {[37, 25->20]}
+Command? Passengers on the train: {[45, 24->20]}
+       [0] Heath St {}
+       [1] Back of the Hill {}
+       [2] Riverway {}
+       [3] Mission Park {}
+       [4] Fenwood Rd {}
+       [5] Brigham Circle {}
+       [6] Longwood Medical {}
+       [7] Museum of Fine Arts {}
+       [8] Northeastern {}
+       [9] Symphony {}
+       [10] Prudential {}
+       [11] Copley {}
+       [12] Arlington {}
+       [13] Boylston {}
+       [14] Park St {}
+       [15] Government Center {}
+       [16] Haymarket {}
+       [17] North Station {}
+       [18] Science Park {}
+       [19] Lechmere {}
+       [20] Union Square {}
+       [21] East Somerville {}
+       [22] Gilman Square {}
+       [23] Magoun Square {}
+       [24] Ball Square {}
+TRAIN: [25] College Ave {[37, 25->20]}
+Command? Passengers on the train: {[45, 24->20][37, 25->20]}
+TRAIN: [0] Heath St {}
+       [1] Back of the Hill {}
+       [2] Riverway {}
+       [3] Mission Park {}
+       [4] Fenwood Rd {}
+       [5] Brigham Circle {}
+       [6] Longwood Medical {}
+       [7] Museum of Fine Arts {}
+       [8] Northeastern {}
+       [9] Symphony {}
+       [10] Prudential {}
+       [11] Copley {}
+       [12] Arlington {}
+       [13] Boylston {}
+       [14] Park St {}
+       [15] Government Center {}
+       [16] Haymarket {}
+       [17] North Station {}
+       [18] Science Park {}
+       [19] Lechmere {}
+       [20] Union Square {}
+       [21] East Somerville {}
+       [22] Gilman Square {}
+       [23] Magoun Square {}
+       [24] Ball Square {}
+       [25] College Ave {}
+Command? Passengers on the train: {[45, 24->20][37, 25->20]}
+       [0] Heath St {}
+TRAIN: [1] Back of the Hill {}
+       [2] Riverway {}
+       [3] Mission Park {}
+       [4] Fenwood Rd {}
+       [5] Brigham Circle {}
+       [6] Longwood Medical {}
+       [7] Museum of Fine Arts {}
+       [8] Northeastern {}
+       [9] Symphony {}
+       [10] Prudential {}
+       [11] Copley {}
+       [12] Arlington {}
+       [13] Boylston {}
+       [14] Park St {}
+       [15] Government Center {}
+       [16] Haymarket {}
+       [17] North Station {}
+       [18] Science Park {}
+       [19] Lechmere {}
+       [20] Union Square {}
+       [21] East Somerville {}
+       [22] Gilman Square {}
+       [23] Magoun Square {}
+       [24] Ball Square {}
+       [25] College Ave {}
+Command? Passengers on the train: {[45, 24->20][37, 25->20]}
+       [0] Heath St {}
+       [1] Back of the Hill {}
+TRAIN: [2] Riverway {}
+       [3] Mission Park {}
+       [4] Fenwood Rd {}
+       [5] Brigham Circle {}
+       [6] Longwood Medical {}
+       [7] Museum of Fine Arts {}
+       [8] Northeastern {}
+       [9] Symphony {}
+       [10] Prudential {}
+       [11] Copley {}
+       [12] Arlington {}
+       [13] Boylston {}
+       [14] Park St {}
+       [15] Government Center {}
+       [16] Haymarket {}
+       [17] North Station {}
+       [18] Science Park {}
+       [19] Lechmere {}
+       [20] Union Square {}
+       [21] East Somerville {}
+       [22] Gilman Square {}
+       [23] Magoun Square {}
+       [24] Ball Square {}
+       [25] College Ave {}
+Command? Thanks for playing MetroSim. Have a nice day!

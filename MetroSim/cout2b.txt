@@ -1,0 +1,85 @@
+Passengers on the train: {}
+TRAIN: [0] Heath St {}
+       [1] Back of the Hill {}
+       [2] Riverway {}
+       [3] Mission Park {}
+       [4] Fenwood Rd {}
+       [5] Brigham Circle {}
+Command? Passengers on the train: {}
+       [0] Heath St {}
+TRAIN: [1] Back of the Hill {}
+       [2] Riverway {}
+       [3] Mission Park {}
+       [4] Fenwood Rd {}
+       [5] Brigham Circle {}
+Command? Passengers on the train: {}
+       [0] Heath St {[1, 0->2]}
+TRAIN: [1] Back of the Hill {}
+       [2] Riverway {}
+       [3] Mission Park {}
+       [4] Fenwood Rd {}
+       [5] Brigham Circle {}
+Command? Passengers on the train: {}
+       [0] Heath St {[1, 0->2]}
+       [1] Back of the Hill {}
+TRAIN: [2] Riverway {}
+       [3] Mission Park {}
+       [4] Fenwood Rd {}
+       [5] Brigham Circle {}
+Command? Passengers on the train: {}
+       [0] Heath St {[1, 0->2]}
+       [1] Back of the Hill {}
+       [2] Riverway {}
+TRAIN: [3] Mission Park {}
+       [4] Fenwood Rd {}
+       [5] Brigham Circle {}
+Command? Passengers on the train: {}
+       [0] Heath St {[1, 0->2]}
+       [1] Back of the Hill {}
+       [2] Riverway {}
+       [3] Mission Park {}
+TRAIN: [4] Fenwood Rd {}
+       [5] Brigham Circle {}
+Command? Passengers on the train: {}
+       [0] Heath St {[1, 0->2]}
+       [1] Back of the Hill {}
+       [2] Riverway {}
+       [3] Mission Park {}
+       [4] Fenwood Rd {}
+TRAIN: [5] Brigham Circle {}
+Command? Passengers on the train: {}
+TRAIN: [0] Heath St {[1, 0->2]}
+       [1] Back of the Hill {}
+       [2] Riverway {}
+       [3] Mission Park {}
+       [4] Fenwood Rd {}
+       [5] Brigham Circle {}
+Command? Passengers on the train: {[1, 0->2]}
+       [0] Heath St {}
+TRAIN: [1] Back of the Hill {}
+       [2] Riverway {}
+       [3] Mission Park {}
+       [4] Fenwood Rd {}
+       [5] Brigham Circle {}
+Command? Passengers on the train: {}
+       [0] Heath St {}
+       [1] Back of the Hill {}
+TRAIN: [2] Riverway {}
+       [3] Mission Park {}
+       [4] Fenwood Rd {}
+       [5] Brigham Circle {}
+Command? Passengers on the train: {}
+       [0] Heath St {}
+       [1] Back of the Hill {}
+       [2] Riverway {}
+TRAIN: [3] Mission Park {}
+       [4] Fenwood Rd {}
+       [5] Brigham Circle {}
+Command? Passengers on the train: {}
+       [0] Heath St {}
+       [1] Back of the Hill {}
+       [2] Riverway {}
+       [3] Mission Park {}
+TRAIN: [4] Fenwood Rd {}
+       [5] Brigham Circle {}
+Command? Thanks for playing MetroSim. Have a nice day!

@@ -1,0 +1,47 @@
+10.0 true false hello file.txt
+clear
+5 not { 1 1 + } not
+clear
+print
+clear
+drop
+clear
+dup
+clear
+swap 1 swap
+clear
++ 1 + #t 2 + 1 { 2 4 * } +
+clear
+- 1 - #t 2 - 1 { 2 4 * } -
+clear
+* 1 * #t 2 * 1 { 2 4 * } *
+clear
+/ 1 / #t 2 / 1 { 2 4 * } /
+clear
+mod 1 mod #t 2 mod 1 { 2 4 * } mod
+clear
+> 1 > #t 2 > 1 { 2 4 * } >
+clear
+< 1 < #t 2 < 1 { 2 4 * } <
+clear
+>= 1 >= #t 2 >= 1 { 2 4 * } >=
+clear
+<= 1 <= #t 2 <= 1 { 2 4 * } <=
+clear
+== 1 == #t == { 2 3 + } ==
+clear
+{ } exec { file.txt } exec
+clear
+{ } file { 1 1 + } file { notARealFile.fake } file
+clear
+if #t if #f { 1 1 + } if
+1 { 1 1 + } { 2 2 + } if
+{ 2 4 * } { 1 1 + } { 2 2 + } if
+{ fileName.txt } { 1 1 + } { 2 2 + } if
+#t 5 { 2 2 + } if
+#t #f { 2 2 + } if
+#t { notAReaklFile.fake } { 2 2 + } if
+#f { 1 1 + } #t if
+#f { 1 1 + } 47 if
+#f { 1 1 + } { notARealFile.fake } if
+clear

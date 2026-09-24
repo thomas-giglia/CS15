@@ -1,0 +1,75 @@
+Name: Thomas Giglia
+utln: 1465835       
+
+Answer the questions below, and submit your answers under the assignment
+"MetroSim Design Checkoff" on Gradescope. You must sign up for a design
+checkoff slot with a TA to discuss your provided answers (see spec for link).
+
+Unless otherwise specified, your answers below should be *brief*: no more
+than three sentences/question.
+
+        
+1. Are you comfortable with reading from stdin (user input) and a text file 
+in C++? Are you comfortable reading different types (e.g. ints and strings)?
+For this one, don't just answer 'yes' if you are. Write out which data 
+types you will need and which functions you will call. 
+
+Answer: I'm relatively comfortable reading crom stdin as it works almost
+identically to cin where "stdin >> var" is the main operator in iStream for reading in 
+values and then they are interpreted as the type that "var" is
+
+2. What happens when I move the train (with 'm m') when the train is at the
+last provided station? 
+
+Answer: It will move to the first station, which is index 0 in the list of
+passengerQueues that makes up the train, keeping all of its current passengers
+as if the train line is loop.
+
+3. What classes will you need in your program? What interfaces (i.e. 
+functions) do they each provide? 
+
+Answer: The program will require a Passenger class that can be used to store and
+retrieve data about the elements of PassengerQueues which itself can be used to
+hold a queue of all of the Passengers headed toward a given station. 
+
+4. How will you implement add a passenger to a station? How will this 
+impact the data structure(s) you use to represent the stations in the 
+simulation? 
+
+Answer: When the train changes stations, the program will iterate over all of
+the incoming data and use the enqueue() function to add them to the end of the
+vector for that station.
+
+5. How will you implement moving a train from one station into the next? 
+How will you put passengers onto the train? How will you take off the
+correct passengers who are leaving at the next station? How will these 
+considerations impact the data structure(s) you use to represent the 
+train in the simulation? 
+
+Answer: The train will be a struct that holds two values, a vector of 
+passengerQueues and a integer that represents the station the train is at for
+that given moment.
+
+6. Does command behavior change based on the source of commands? 
+Based on your answer, how could we modularize our command processing
+code? Be as detailed as you can.
+
+Answer: I don't believe there is a difference between the behavior based on the
+source of the commands so regardless they could both be inputted using stdin or
+by reading in from the file then being put into a temp vector that is then 
+iterated over to put all of the passengers in their correct queues depending on 
+their starting station
+
+7. How do you plan to test your program? What evidence of testing do
+you plan to submit? 
+
+Answer: I'm planning on using a number of unit_tests that input various .txt 
+files of commands and then check that they the outputs per station are the same
+as the demo file. I will also use diff to check the differences when inputting 
+larger amounts of data.
+
+8. What is your timeline for completing this project? What would you like 
+to have completed, and by which dates?   
+
+Answer: I would like to have the base functionality for this project done by
+Tuesday 2/11 and to have all of my testing and debugging done by Sunday 2/16.

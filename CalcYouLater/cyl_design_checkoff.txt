@@ -1,0 +1,211 @@
+Name: Thomas Giglia
+utln: 1465835       
+
+Answer the questions below, and submit your answers under the
+assignment "CalcYouLater Design Checkoff" on Gradescope.  You must
+sign up for a design checkoff slot with a TA to discuss your provided
+answers (see spec for link).
+
+Unless otherwise specified, your answers below should be *brief*: no
+more than three sentences/question.
+
+        
+1. Are you comfortable using try-catch?  How do you think you would
+   use this in your design for this assignment?
+
+   Lets say my program consists of: 
+
+   funcA() {
+	throw runtime_error() 
+   }
+
+   funcB() {
+       workA()
+       funcA()
+       workB()
+   }
+
+   funcC() {
+       try {
+	    funcB()
+       }
+       catch(runtime_error) {
+	  workC()
+       }
+   }
+
+   I call funcC().  Which of the "work" functions will be called, and
+   in what order?
+
+   Answer: I'm relatively conformatable with using try-catch, but if I'm honest
+   I always test them on simple case to double check when I have to use them. 
+   In this case workA() and workC() will be called in that order, but workB() 
+   will not be called because of the catch after funcA() throws a 
+   runtime_error() is in funcC() not in funcB().
+
+
+2. Run the following example on the reference: 
+
+   ./theCalcYouLater
+   3 { a.txt } + 
+   print 
+
+   What happens after the first command? 
+   What happens after the second?
+
+   Answer: After the first command "Error: datum_not_int" is printed to cerr 
+   and after the second command "Error: empty_stack" is printed to cerr.
+
+
+
+3. Extend the previous example.  What happens if I try to perform "+"
+   between a string and an integer?  Which elements are popped off the
+   stack and remain popped off?
+
+   Answer: The program throws and error and prints "Error: datum_not_int".
+
+4. What does exec do?  What does file do?  What does if do?
+
+   Answer: The function exec takes the topmost element on the stack, which must
+   be an rstring, and processes its contents as a sequence of commands. The 
+   function file file pops the top element off of the stack, which must be an
+   rstring. The function if assumes that the stack is set up such that the
+   topmost item is an rstring that is executed if false, the next datum is an
+   rstring that acts as a condition to be executed if true and the third datum
+   from the top is the condition to be tested.
+
+
+
+5. Consider the if example from the spec: 
+
+   3 4 < 
+   { #t } { #f } if 
+   print 
+
+   Draw the stack after each Datum is processed. 
+
+Answer: First 3 is added to the stack, then 4 above it, then then both are 
+popped off to perform the operation 3 < 4 which returns true and that is 
+placed at the top of the now empty stack. Next { #t } is added to the top of
+the stack, then { #f } is added above it. After that the if function is run on
+them which pops off all three of the current data in the stack and operates, 
+returning #t because true is still stored in the stack from the previous 3 4 <
+operation. 
+
+6. How will your program interact with the user? What should happen if your
+   program encounters an error during this interaction?
+
+Answer: The program interacts with the user via inputs and outputs to the 
+console. If the program inputs an error in operation to do with an unrecognized
+user input, the it will output "x: unimplement" where x is whatever the user
+entered. If the call to one of its major functions (if, file, and exec) is not
+set up correct it will output "Error expected boolean in if test", "Error: 
+cannot execute non rstring", or "Error: file operand not rstring" respectively.
+There is also the "Error: empty stack" that can be output if the user tries to
+operate on an empty stack. All of these errors are caught though so the 
+program continues accepting inputs after the message is sent.  
+
+
+7. What classes will you need in your program?  What are the important
+   functions and member variables that those classes will comprise?
+   How will the classes interact (i.e., which classes will be clients
+   of others)?
+
+   What data structures will you use?  It is okay if you use more than
+   three sentences here.  Feel free to provide your answer in list
+   form.
+
+   Answer: I'm going to need to write a DatumStack class that will inheret the
+   Datum class. I will also need to write and implement a parser class that 
+   will inheret the DatumStack class and the Datum class by way of it. Above 
+   that I will need to implement the RPNCalc class which will inheret all that
+   is below it. The Datum class will have these functions:
+        Datum(const Datum &d);
+        explicit Datum(int i);
+        explicit Datum(bool b);
+        explicit Datum(const char *s);
+        explicit Datum(std::string s);
+
+        bool isInt()     const;
+        bool isBool()    const;
+        bool isRString() const;
+
+        Datum &operator= (const Datum &d);
+        bool   operator==(Datum &d) const;
+        bool   operator< (Datum &d) const;
+
+        int         getInt()     const;
+        bool        getBool()    const;
+        std::string getRString() const;
+        std::string toString()   const;
+    It will also include a polymorphic variable to represent a datum that can
+    hold an int value, bool value, or rstring value.
+
+    The DatumStack will have these functions:
+        DatumStack();
+        DatumStack(Datum d, int length);
+        ~DatumStack();
+        
+        bool    isEmpty() const;
+        int     size()    const; 
+        Datum   top()     const; 
+        Datum   pop();
+        void    push(Datum d);
+    It will also hold a list<> instance to represent the stack.
+    
+    The parser class will have just the singular function:
+        string parseRString(istream &input);
+    
+    The RPNCalc class will be the most complex and will include these classes:
+        void    push(string input);
+        void    not();
+        void    print() const;
+        void    clear();
+        void    drop();
+        void    dup();
+        void    swap();
+        void    quit();
+        void    sum();
+        void    diff();
+        void    prod();
+        void    div();
+        void    mod();
+        void    lessThan();
+        void    greaterThan();
+        void    leq();
+        void    geq();
+        void    equals();
+        void    parse();
+        void    exec();
+        void    file();
+        void    if();
+    It will also have a member variable holding a DatumStack instance.
+
+
+8. There are three sources of input for processing commands: cin,
+   files, and rstrings.  What C++ data type can allow you to write the
+   same code that handles commands from all three of these sources?
+
+   Answer: istream is going to be the most useful for this as it can interpret
+   general cin values by default, files by way of ifstream and rstrings by way
+   of istringstream. 
+
+
+9. How do you plan to test your program?  What evidence of testing do
+   you plan to submit?
+
+   Answer: I plan to use unit tests for the first part of the project as I get
+   the DatumStack and parser classes set up and operation. For the rest of the
+   project (where the operation of individual functions become harder to
+   distinguish from the operation of the program as a whole) I will use diff
+   on .cyl files that I generate using my version of CalcYouLater against the 
+   values from theCalcYouLater.
+
+
+10. What is your timeline for completing this project?  What would you
+    like to have completed, and by which dates?
+
+    Answer: I would like to have part 1 done by the end of Tuesday, February 25
+    and the basic operability of the program done by end of Saturday, March 1
+    so that I can thouroughly test and debug it in time for the Tuesday March 3
+    submission.

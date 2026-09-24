@@ -1,0 +1,2 @@
+{ error_tests.cylc } file
+quit

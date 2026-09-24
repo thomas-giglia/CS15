@@ -1,0 +1,23 @@
+42
+99
+110
+110
+110
+777
+14
+100
+400
+999
+17
+17
+17
+17
+{ Hello from recursive exec! }
+{ 5 is NOT greater than 10 (should print) }
+125
+{ First execution }
+{ Second execution }
+16
+16
+16
+16

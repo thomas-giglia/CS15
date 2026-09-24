@@ -1,0 +1,49 @@
+Passenger 1 left train at station Brigham Circle
+Passenger 38 left train at station Brigham Circle
+Passenger 2 left train at station Longwood Medical
+Passenger 39 left train at station Longwood Medical
+Passenger 3 left train at station Museum of Fine Arts
+Passenger 4 left train at station Northeastern
+Passenger 5 left train at station Symphony
+Passenger 6 left train at station Prudential
+Passenger 46 left train at station Prudential
+Passenger 40 left train at station Prudential
+Passenger 7 left train at station Copley
+Passenger 8 left train at station Arlington
+Passenger 9 left train at station Boylston
+Passenger 10 left train at station Park St
+Passenger 47 left train at station Park St
+Passenger 11 left train at station Government Center
+Passenger 41 left train at station Government Center
+Passenger 12 left train at station Haymarket
+Passenger 48 left train at station Haymarket
+Passenger 13 left train at station North Station
+Passenger 14 left train at station Science Park
+Passenger 42 left train at station Science Park
+Passenger 15 left train at station Lechmere
+Passenger 49 left train at station Lechmere
+Passenger 30 left train at station Lechmere
+Passenger 16 left train at station Union Square
+Passenger 22 left train at station Union Square
+Passenger 23 left train at station Union Square
+Passenger 29 left train at station Union Square
+Passenger 31 left train at station Union Square
+Passenger 17 left train at station East Somerville
+Passenger 24 left train at station East Somerville
+Passenger 32 left train at station East Somerville
+Passenger 18 left train at station Gilman Square
+Passenger 25 left train at station Gilman Square
+Passenger 43 left train at station Gilman Square
+Passenger 33 left train at station Gilman Square
+Passenger 19 left train at station Magoun Square
+Passenger 26 left train at station Magoun Square
+Passenger 50 left train at station Magoun Square
+Passenger 34 left train at station Magoun Square
+Passenger 20 left train at station Ball Square
+Passenger 27 left train at station Ball Square
+Passenger 35 left train at station Ball Square
+Passenger 21 left train at station College Ave
+Passenger 28 left train at station College Ave
+Passenger 44 left train at station College Ave
+Passenger 51 left train at station College Ave
+Passenger 36 left train at station College Ave

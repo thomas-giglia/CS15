@@ -1,0 +1,144 @@
+/**********************************************************
+* Project 1: Metro Simulator
+* CS 15
+* README
+*
+*********************************************************/
+
+Compile/run:
+     - Compile using
+            make MetroSim
+     - run executable with
+            ./MetroSim stationsFile passFile [commands]
+
+Purpose
+     The Metro Simulator is designed to simulate the operation of a metro 
+     transit system, managing passengers and their movement between stations 
+     using a queue-based system. The program reads input files defining station 
+     information and passenger data and processes a series of commands to 
+     simulate metro operations.
+
+Acknowledgements
+     Special thanks to the TAs who provided clarifications on file I/O 
+     operations during lab sessions.
+
+Files:
+
+main.cpp:
+     The main client file for the simulation, handles file inputs and making
+     sure that calls to program are properly formatted
+
+MetroSim.cpp:
+     Implements the MetroSim class, representing the state of the simulations
+     and altering it based on commands from cin or a command file
+
+Passenger.cpp:
+     Implements the Passenger class, representing an individual passenger in 
+     the simulation.
+
+Passenger.h:
+     Defines the Passenger class and its member functions.
+
+PassengerQueue.cpp:
+     Implements the PassengerQueue class, which manages passengers using a 
+     queue structure.
+
+PassengerQueue.h:
+     Defines the PassengerQueue class and its member functions.
+
+unit_test.h:
+     Contains unit tests for various program functionalities, ensuring 
+     correctness.
+
+output_test1.txt, output_test2.txt, output_test3.txt
+     Output files written to by unit_test.h that are used for diff testing.
+
+output_correct1.txt, output_correct2.txt, output_correct3.txt
+     Pre-written files with the proper data to be used for diff testing.
+
+Makefile:
+     Automates the compilation process for the program.
+
+test_cout.txt, test_cout2.txt, cout2a.txt:
+     Output files that take in diverted cout data after running MetroSim file 
+     to be used for diff testing.
+
+cout_correct.txt, cout_correct2.txt, cout2b.txt:
+     Output files that take in diverted cout data after running the provided 
+     file theMetroSim to be used as the correct values for diff testing.
+
+test_commands.txt, test_commands2.txt, test_short_commands, commands2.txt:
+     Command files used for testing, read by MetroSim to discern functionality 
+     for different cases the simulation could face.
+
+unit_tests.h:
+     A series of tests for various elements of the program to assert their
+     general functionality or lack thereof.
+
+
+Compile/run:
+     - Compile using
+            make MetroSim
+     - run executable with
+            ./MetroSim stationsFile passFile [commands]
+
+Architectural Overview:
+
+    The Metro Simulator consists of three main classes: Passenger, which 
+    represents an individual passenger with attributes such as ID, starting
+    station, and destination station. It also includes PassengerQueue, which
+    implements a queue-based structure for managing passenger movement. The 
+    program processes input files to initialize passenger and station data, 
+    then follows the provided commands to simulate metro system operations.
+    The last of the classes is MetroSim itself which holds two instances of a 
+    struct named QueueData used to represent the train and the train stations 
+    respectively and holds a name variable (to represent train station names, 
+    the specific train cars did not receive names, though both have id 
+    associated id numbers), and a PassengerQueue named queue. It also holds 
+    an idCount variable that increments to be able to discern between the 
+    various passengers and a currStation variable that tracks where the train 
+    is currently located. The various functions within the MetroSim class 
+    runs the majority of the processing, though there is also a client file 
+    called main that handles some of the file input tasks. MetroSim is 
+    included at the top of the main client file. 
+
+Data Structures and Algorithms
+
+     The primary data structure used in this program is std::list from the C++ 
+     Standard Library. A doubly linked list is used to implement the 
+     PassengerQueue, allowing for efficient insertions and deletions at both 
+     ends. The most complex algorithm currently implemented is basis of the
+     toString() function of PassengerQueue which takes in the whole of the 
+     queue and prints out the data for each passenger one by one using the
+     getters from the Passenger class.
+
+Testing
+     The program has been tested using unit tests implemented in unit_test.h. 
+     the testing covers constructor validation, getter functions correctness 
+     and print function output verification for the Passenger class as well as
+     enqueue functionality ensuring proper order maintenance, dequeue 
+     functionality ensuring correct element removal, and toString function 
+     verifying the queue’s contents representation for the PassengerQueue class
+     All tests were executed, and assertions were used to validate expected 
+     outcomes. These tests ensure the correctness of the queue operations 
+     and the accuracy of the metro simulation process. Additionally the print
+     statements for Passenger and PassengerQueue were tested using a 
+     combination of unit_test and using diff on correct versions of the files
+     Additionally, MetroSim class functions, with the help of printState's cout
+     information was redirected into output files that were tested against 
+     those from theMetroSim and mindTheGap's and run's outputs (the combination
+     of which make up the general outputs of the program) were directly diff 
+     tested against the output file from various command files being used with
+     theMetroSim. This ensured that print statements for passengers, stations, 
+     and train movements matched the correct simulation behavior.
+
+
+Part that you found most difficult:
+     The specific details of the Passenger and PassengerQueue classes were not
+     too bad to implement, though the fact that this project starts with much
+     less constrictions added some unique challenges that I had to work through
+     to figure out what I should work on first to get the program working and
+     how all of the separate classes and data structures need to work together
+     to make it all run properly. 
+
+Time Spent: 19 hours

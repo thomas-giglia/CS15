@@ -1,0 +1,42 @@
+1 print 50 print 500 print -20 print
+clear
+#t print #f print
+clear
+{ 1 1 + } print {   fileName.txt   } print
+{
+    1
+    { 1 1 + }
+    -
+}
+print
+clear
+#t not print #f not print
+clear
+#t { test } 1 print swap print drop print swap print drop print
+clear
+1 2 3 4 5 + print + print + print + print
+clear
+5 4 3 2 1 - print - print - print - print
+clear
+5 4 3 2 1 * print * print * print * print
+clear
+120 5 / print 24 4 / print 6 3 / print 2 2 / print 0 / print
+clear
+44 12 mod print 55 3 mod print 5 5 mod print 2 12 mod print 5 0 mod print
+clear
+5 4 > print 5 5 > print 5 6 > print
+clear
+5 4 < print 5 5 < print 5 6 < print
+clear
+5 4 >= print 5 5 >= print 5 6 >= print
+clear
+5 4 <= print 5 5 <= print 5 6 <= print
+clear
+5 4 == print 5 5 == print 5 6 == print
+clear
+{ file.txt } { 5 3 + } == print
+{ 5 3 + } { 5 3 + } == print
+{ file.txt } { file.txt } == print
+clear
+#t #f == print #t #t == print #f #f == print #f #t == print
+clear

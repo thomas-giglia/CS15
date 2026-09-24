@@ -1,0 +1,150 @@
+/**********************************************************
+* CS 15 Project 2: CalcYouLater
+* Thomas Giglia
+* 1465835
+* README
+*
+*********************************************************/
+
+Compile/run:
+     - Compile using
+            make
+     - run executable with
+            ./CalcYouLater
+
+Purpose
+    The CalcYouLater program is meant to read in commands from various sources
+    which are generally in RPN notation to perform various math and logic 
+    operations that can be output to the user through the help of the 
+    implementation of a stack of Datum variables that can hold booleans, 
+    rstrings, or integers.
+
+Acknowledgements
+    Special thanks to the TAs who provided clarifications on file I/O 
+    operations during lab sessions.
+
+Files:
+
+DatumStack.h
+    Defines the DatumStack class and its member functions which manage and 
+    organize Datum objects into a stack data structure.
+
+DatumStack.cpp
+    Implements the DatumStack class, which manages datum objects using a stack
+    structure.
+
+RPNCalc.h:
+    Acts as the interface for the RPNCalc program and the users inputs 
+    meant for use by an outside user with little to no programming knowledge. 
+
+RPNCalc.cpp:
+    PURPOSE: Implementation of the RPNCalc class, which holds a stack of datum
+    objects. This class provides functionality to perform various arithmetic, 
+    boolean, and organizaitonal commands on the data within the stack.
+
+README:
+    Acts as a way to navigate and understand the program as a whole including 
+    details on architectural and data structure design.
+
+unit_test.h:
+    Contains unit tests for various program functionalities, ensuring 
+    correctness.
+
+Makefile:
+    Automates the compilation process for the program.
+
+test_input.cylc, test_input2.cylc, simple_tests.cylc, complex_tests.cylc,
+fact.cylc, fib.cylc, n_fibs.cylc, fib_debug.cylc:
+    Various different input files used for testing against template model. 
+
+Architectural Overview:
+    The RPNCalc class implements a Reverse Polish Notation (RPN) calculator
+    using a stack-based architecture to process and evaluate expressions.
+    At the core of the design is the DatumStack, a stack that holds Datum
+    objects representing integers, booleans, or RPN strings. The RPNCalc class
+    maintains a control flag (cont) for execution flow and processes user
+    inputs through run(), which continuously reads and pushes parsed tokens
+    to the stack. Commands such as arithmetic (doMath()), logical operations
+    (relate(), equate()), and stack manipulations (swap(), drop(), dup())
+    interact directly with DatumStack. Complex expressions, encapsulated in
+    RPN strings, are recursively parsed (parse()) and executed (exec()),
+    allowing for nested evaluations. The program also supports conditional
+    execution (stackIf()) and file reading (file()), where inputs from files
+    are treated as RPN expressions. The system dynamically differentiates
+    between commands and data using findCommand(), ensuring seamless processing
+    of mathematical operations, logical evaluations, and structured code
+    execution, reinforcing its stack-driven computational model. There is also
+    the main.cpp file that exists to create an instance of the RPNCalc class
+    which the client can interact with. Additionally, there is a Makefile used
+    for compilation of the .cpp, .h, and .o files into executables in a manner
+    that is clean and easy for the user. There are various other .cyl and .cylc
+    files that were used for testing (.cylc are compiled .cyl files using the
+    cylc executable) that act as parts of rstring inputs to the program and are
+    then executed using the file command. Lastly there is the unit_test.h file
+    that takes in the RPNCalc class and DatumStack class through it and tests
+    various parts of their operations. All .cpp files have a corresponding .h
+    file that it includes which acts as a use guide for the class with the
+    exception of main.cpp. In order of heirarchy, main.cpp includes RPNCalc.h,
+    which takes in DatumStack.h which then takes in Datum.h so that every level
+    above any given level can use the information from the class(es) below.  
+
+Data Structures and Algorithms:
+    The primary abstract data type (ADT) used in the HuffmanCoder program is a
+    binary tree, specifically a Huffman Tree, which is a specialized version
+    used for data compression via variable-length prefix coding. This tree is
+    implemented using the HuffmanTreeNode class, where each node stores a
+    character, a frequency count, and pointers to left and right child nodes. 
+    Internally, the Huffman Treecis constructed using a min-heap priority queue
+    of HuffmanTreeNode pointers, leveraging a standard priority_queue with a
+    custom comparator to order nodes by frequency in ascending order. This
+    allows for efficient retrieval of the two lowest-frequency nodes during
+    tree construction, each pop() and push() operation taking O(log n) time.
+    the choice of a pointer-based binary tree structure allows for dynamic
+    construction and recursive traversal but incurs memory overhead due to
+    pointer storage and potential data fragmentation. An array-based tree
+    representation would reduce pointer overhead and improve cache locality but
+    would be unsuitable due to the tree’s unpredictable shape and depth. The
+    priority queue offers a well-balanced tradeoff between simplicity and
+    performance, ensuring logarithmic operations and intuitive merging during
+    tree creation.
+
+    A key algorithm in this implementation is the Huffman Tree construction
+    algorithm found in buildTree(), which is responsible for generating the 
+    prefix code tree based on character frequencies. First, character 
+    frequencies are counted using a hash map (unordered_map<char, int>), a
+    structure that offers O(1) average-case insertion and lookup, and each
+    entry is converted into a leaf node pushed into the priority queue. Then,
+    while more than one node remains, the two nodes with the lowest frequencies
+    are removed from the queue, merged into a new internal node with their
+    combined frequency, and reinserted into the queue. This greedy algorithm
+    continues until one node remains, which becomes the root of the final
+    Huffman Tree. The complexity of this algorithm is O(n log n), where n is
+    the number of unique characters in the input, due to repeated heap
+    operations. The main advantage of this approach is its optimality: Huffman
+    coding guarantees the smallest average code length among all prefix-free
+    codes for a given frequency distribution. However, it can be memory-
+    intensive for large alphabets and does not adapt well to changing data
+    distributions without reconstruction. The recursive traversal used in 
+    makeCodes() to assign binary codes is simple but powerful, building prefix
+    strings in O(n) time and storing them in an unordered_map<char, string> for
+    constant-time encoding. On the decoding side, deserialize_tree() and 
+    readBits() enable efficient reconstruction of the original text, parsing
+    serialized tree strings and decoding the bitstream in linear time. Overall,
+    the combination of heap-based tree construction, hash maps for code lookup,
+    and recursive traversal for encoding/decoding provides an efficient 
+    pipeline for lossless compression. While alternatives like arithmetic 
+    coding offer potential gains in specific contexts, the Huffman approach
+    balances compression performance, implementation simplicity, and 
+    deterministic behavior ideal for file-based encoding tasks.
+
+Testing
+    
+
+Part that you found most difficult:
+    The way the my implementation of this project works requires that moving 
+    left in the tree requries an encoding of 1, but a decoding of 0 and vice 
+    versa for movement toward the right side of the tree, it took a lot of 
+    testing and a gaining a thorough understanding of every part of the code to
+    find that out. 
+
+Time Spent: 15 hours
