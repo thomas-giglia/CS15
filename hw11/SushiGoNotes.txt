@@ -1,0 +1,123 @@
+SushiGo notes:
+
+Deck has 108 cards:
+14 Tempura
+14 Sashimi
+14 Dumpling
+12 2Maki Rolls
+8  3Maki Rolls 
+6  1Maki Roll
+10 Salmon Nigiri
+5  Squid Nigiri
+5  Egg Nigiri
+10 Pudding
+6  Wasabi
+4  Chopsticks
+(all will need to be pointers)
+
+Coding up for 3 players 
+(so 9 cards dealt per player)
+- rest of cards will be in face down pile (will call it "deck")
+
+Playing: Only 3 rounds (gracia Dios)
+- all players simultaneously choose any one card from their hand to keep
+(will make it in order, but won't show until afterwards)
+All of these cards are placed face down in front of them (so removed from "hand")
+After player 3 goes, reveal all three cards
+After that, rest of hand is passed to the left (P1 -> P2, P2 -> P3, P3 -> P1)
+- Face up cards (the one's put in the middle stay with the player)
+NOTE: no drawing new cards, hands simply get smaller
+
+Special Cards (only work when already played):
+If a wasabi: the next nigiri played has 3x value
+If chopsticks: Keep your first card, wait until everyone has done so, 
+   - call "Sushi Go" and place another card, then all are revealed
+   - NOTE: chopsticks are put back into hand before hands are passed
+
+Ending a round: last card per hand -> left player face up in their pile
+
+Scoring: 
+Maki rolls: person with most rolls gets 6 points (int split if tied)
+   - Second most gets 3 points (int split if tied again)
+Tempura: 2 tempura cards are worth 5 points, 1 is worth 0 points
+Sashimi: 3 sashimi cards are worth 10 points (any less are worth 0)
+Dumplings: +1 point for 1st dumpling, +2 for 2nd, +3rd for 3rd, etc.
+Squid Nigiri: Worth 3 points (unless on wasabi, then x3)
+Salmon Nigiri: Worth 2 points (unless on wasabi, then x3)
+Egg Nigiri: Worth 1 points (unless on wasabi, then x3)
+Wasabi: Worth 0 alone (only acts a nigiri multiplier)
+Chopsticks: Always worth 0
+Pudding cards: kept multi-round (special!)
+
+New Round: 
+Announce scores from previous round 
+Discard all cards, but pudding (into "discard pile")
+Deal new cards for a new round from "draw pile" = "deck"
+
+Ending the game:
+Pudding: most pudding gets 6 points (int split if tied)
+    - Least pudding loses 6 points (int split if tied)
+Whoever has the most points wins, # of puddings is tiebreaker
+
+Way Sushi_demo deals:
+Sashimi  Dumpling Maki 3   Sashimi  Maki 1   Tempura  Egg N.   Maki 1   Dumpling
+Wasabi   Maki 1   Sashimi  Maki 1   Pudding  Egg N.   Squid N. Maki 1   Tempura
+Maki 3   SalmonN. SalmonN. SalmonN. Dumpling Wasabi   Sashimi  Salmon N.Dumpling
+
+//void playChopsticks(int index, int cardChoice);
+
+//void Game::playChopsticks(int index, int cardChoice) {
+    /*string choice;
+    int entry = cardChoice;
+    int size = players[p].getPassingHand()->size() - 1;
+    cout << " " << players[p].getPassingHand()->at(cardChoice)->getSushiType();
+    cout << " selected!\n Would you like to use your Chopsticks card to"; 
+    cout << " select a secondcard from your hand? (y/n): ";
+    cin << choice;
+    if (choice == "y") {
+        cout << " Select a second card\n";
+        while(entry == cardChoice) {
+            cin << entry;
+            if (entry == cardChoice && cardChoice == 0) {
+                cout << " That card has already been selected.\n Please enter";
+                cout << " a valid number between 2 and " << size << ": ";
+            } else if (entry == cardChoice && cardChoice == size) {
+                cout << " That card has already been selected.\n Please enter";
+                cout << " a valid number between 1 and " << size - 1 << ": ";
+            } else {
+                cout << " That card has already been selected.\n Please enter";
+                cout << " a valid number between 1 and " << size;\
+                cout << " (other than " << cardChoice << "): ";
+            }
+        }
+        
+    }*/
+//}
+    
+
+keptCard[p] = players[p].getPassingHand()->at(entries[p]-1);
+/*if(keptCard[p]->getSushiType() == "Chopsticks") {
+    players[p].addToChopsticks();
+} 
+playChopsticks (p, entries[p]);*/
+
+1
+1
+1
+1
+1
+1
+y
+2
+1
+1
+1
+1
+y
+2
+1
+1
+1
+1
+y
+2
