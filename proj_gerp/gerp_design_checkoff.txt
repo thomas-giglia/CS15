@@ -1,0 +1,134 @@
+Names: Thomas Giglia, Julian DuTemple
+utlns: tgigli01, jdutem01  
+
+Answer the questions below, and submit your answers under the assignment
+"gerp Design Checkoff" on Gradescope. You must sign up for a design checkoff
+slot with a TA to discuss your provided answers (see spec for sign up link).
+Make sure to submit this file *prior* to your design checkoff.
+
+For each question, give as much detail as you feel is necessary.
+
+1. What classes and structs will you implement for your program? For each class,
+   provide a list of public functions of that class; for each struct, provide a
+   list of member variables.
+
+Answer: We're going to use class the implements a chain based hashing system
+to store the date from the directory that will have a private struct of 
+    list<pair<int,int>> *buckets;
+    int bucket_size;
+    int total_elements;
+    double max_load_factor;
+
+    there will also be the class Gerp which will do the majority of the client
+    based interaction, including the command loop. As of right now it will not
+    have its own struct. 
+        
+2. Describe the index that you will build for querying. What specific data
+   structures will you use to build this index? *Important*: Bring an
+   accompanying drawing of your index structure when you come to your checkoff.
+
+Answer: We're going to use a hash with chaining to implement the index, 
+specifically the chains are going to be linked lists.
+
+Vector with keys being indices and linked lists for chaining
+
+3. To use your index, you will use something for lookup (the key) and you will
+   get some associated data back (the value). What are the C++ *types* of your
+   index's key and value? Examples of valid types: int, string,
+   vector<string>, vector<list<string>>; you may also define custom types using
+   structs/classes, e.g., Animal and vector<Animal> are valid types if you
+   define a struct/class named Animal. If your key/value types involve custom
+   classes/structs, they should be included in your answer to question #1.
+                
+Answer: Keys will be the "words" within the directory, and the values will be 
+pointers to linked lists holding every instance of that word and where it was 
+found in a struct.
+
+   Key type: string (put into the c++ hash function % by size of hash_table)
+   Value type: *list<Metadata> where Metadata is a struct with elements of 
+   string name;
+   vector<string> src;
+   vector<int> line;          
+
+4. Explain what a collision is versus having multiple lines associated with 
+   a particular word. Write (and/or draw) out an example of when a 
+   collision occurs. Write (and/or draw) out an example of when multiple 
+   lines associated with a single word. 
+
+Answer: If there are multiple lines associated with a particular word, then
+they just both get put into the vectors for src and line, but if there are
+multiple words with the same key value, generated from the first 4 characters
+of the string, then there is a collision and another struct will be added to
+the list.
+
+5. What do you expect the *space* complexity of your index will be? How many
+   times will a single line be stored according to your data structures?
+
+Answer: According to the data structure, its looking like every line will be 
+stored as many times as there are words in it, which may very well be too
+complex in terms of space.
+
+6. What is the time complexity of *building* your index? If you refer to some
+   variable, be sure to specify what the variable refers to, e.g., in "O(n)",
+   state explicitly what "n" is.
+
+Store words as a 3D point where it is (file#, line#, word#) so lines are stored
+twice, once for case sensitive, once for case insensitive.
+
+Answer: It should be O(n) average time to build it given that it will start
+with 100 buckets and will only have to double in size every time it hits a load
+factor of 0.75. In this case n is the number of words in the directory
+
+7. What is the time complexity of *using* your index for lookup? As above,
+   be specific about variables you use.
+
+Answer: Generally, lookup will be close to O(1) using the triple vector 
+coordinates system for the hashing. The algorithm we plan to use will run in
+O(n) time worst case where n is the length of the linked list for the largest 
+chained bucket. 
+
+8. How will you handle case-sensitive search?
+   What is the time complexity (should be close to O(1))?
+
+Answer: We will compare strings just as they come in. 
+
+9. How will you handle case-insensitive search?
+   What is the time complexity (should be close to O(1))?
+
+Answer: We will simply take in the string and compare a version of it made into
+all lowercase will a version of the text from the directory made into all 
+lowercase. I believe the time complexity of this change is O(1).
+
+10. How are you handling duplicate words within a line? Consider these two example 
+   lines: 
+
+      (i) the cat and the dog 
+      (ii) the cat and THE dog 
+
+   If a user does a case sensitive query on line (i) it should report 'the' only 
+   once by showing the line only once in the output. How will you do this? 
+
+   If a user does a case insensitive query on line (ii) it should report 'the' 
+   only once by showing the line only once in the output. How will you do this? 
+
+Answer: For the first case check the line against the previous line at the time
+of output.
+
+11. How will you test your implementation and what specific evidence of testing
+    will you submit?
+
+Answer: For phase one we will use unit_test to thoroughly assess the general
+functionality and edge cases for stripNonAlphaNum() and traverseDirectory().
+For phase two we will be using diff on sorted versions of our outputs against
+the_gerp and will submit the input files we used.
+
+
+
+12. What is your schedule for completing this assignment? Include specific dates
+    and the tasks that you would like to accomplish by each date. Do not forget
+    testing!
+
+Answer: We would like to have the design checkoff and basic functionality done
+by the end of Sunday, April 13, phase one completely tested, debugged, and
+submitted by Tuesday, April 15, the entire project coded by Friday, April 19, 
+and final testing and submission done be Tuesday April 22.

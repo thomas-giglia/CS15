@@ -1,0 +1,71 @@
+/**********************************************************
+* CS15 Project 4: Gerp
+* Thomas Giglia, Julian DuTemple
+* tgigli01, jdutem01 
+* README
+*
+*********************************************************/
+
+Compile/run:
+     - Compile using
+            make
+     - run executable with
+            ./gerp inputDirectory outputFile";
+
+Purpose
+    Implementation of the phaseOne functions, which help to remove all 
+    non-alphanumeric characters from strings to make them 'words' and traverse
+    directories to recursively output all files within it.
+
+Acknowledgements
+    Special thanks to the Peter Morganelli, the TA who did out design checkoff
+    and help clarify some parts of the project where our approach was going to
+    be more difficult than necessary to implement or fully ineffective.
+
+Files:
+
+    Processing.cpp: Implementation of the phaseOne functions, which help to 
+        remove all non-alphanumeric characters from strings to make them 
+        'words' and traverse directories to recursively output all files within 
+        it.
+
+    Processing.h: Acts as the interface for the processing functions of Gerp. 
+        This is meant for use by an outside user with little to no programming 
+        knowledge. 
+
+    README:
+        Acts as a way to navigate and understand the program as a whole 
+        including details on architectural and data structure design.
+
+    unit_test.h:
+        Contains unit tests for various program functionalities, ensuring 
+        correctness.
+
+    Makefile:
+        Automates the compilation process for the program.
+
+
+Architectural Overview:
+    There is no architecture as of yet outside of processing.h and 
+    processing.cpp which includes it. The bulk of the design will be 
+    implemented during phase 2 of this project.
+
+Data Structures and Algorithms:
+    This traverseDirectory recursively moves throughout FSTrees using DirNodes.
+    More data structures and algorithms will be added during phase two of this
+    project.
+
+Testing
+    The first phase testing for this project including using unit tests 
+    implemented in unit_test.h. This testing covered the efficacy and 
+    constistency of the stripNonAlphaNum() function. All tests were executed, 
+    and assertions were used to validate expected outcomes. These tests ensure 
+    the correctness and accuracy of these process could be trusted for latter 
+    portion of this project. Additionally, traverseDirectory() was tested using
+    expected results with diff.
+    
+Part that you found most difficult:
+    The traversing of the trees was a little bit tricky simply because it
+    required a solid understanding of the spec to implement properly
+
+Time Spent: 4 hours

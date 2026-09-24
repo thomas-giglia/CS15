@@ -1,0 +1,7 @@
+tinyData/hello
+tinyData/test.txt
+tinyData/a/found
+tinyData/a/you
+tinyData/b/hehe.txt
+tinyData/b/c/heyLookAtMe.txt
+tinyData/b/c/me
