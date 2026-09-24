@@ -1,0 +1,171 @@
+/**********************************************************
+* CS 15 Project 3: Zap!
+* Thomas Giglia
+* 1465835
+* README
+*
+*********************************************************/
+
+Compile/run:
+     - Compile using
+            make
+     - run executable with
+            ./zap [zap | unzap] inputFile outputFile\n";
+
+Purpose
+    Implementation of the phaseOne functions, which help to turn text into
+    Huffman trees and vice versa.
+
+Acknowledgements
+    Special thanks to the TA who helped during office hours, I apologize for
+    forgetting each of y'all's names
+
+Files:
+
+    HuffmanCoder.cpp:
+        Implementation of the HuffmanCoder class, which holds a priority queue 
+        of HuffmanTreeNode pointers and a comparator. This class provides 
+        functionality compress files into more efficient binary strings and 
+        uncompress them back into text files using Huffman Trees.
+
+    HuffmanCoder.h:
+        Acts as the interface for the HuffmanCoder class for user inputs
+        meant for use by an outside user with little to no programming 
+        knowledge.
+
+main.cpp:
+        Starts instances of the HuffmanCoder class to be used to zap and unzap 
+        files into encoded and decoded versions respectively. Outputs an error
+        if executable is not formatted correctly.
+
+    README:
+        Acts as a way to navigate and understand the program as a whole 
+        including details on architectural and data structure design.
+
+    unit_test.h:
+        Contains unit tests for various program functionalities, ensuring 
+        correctness.
+
+    Makefile:
+        Automates the compilation process for the program.
+
+    input1.txt, input2.txt, input3.txt, input4.txt, input5.txt, inputA.txt,
+    all_conll_english.txt, banana.txt, banana_apple.txt, ecoli.coli, hi.txt,
+    sentences.txt, & works_of_shakespeare.txt:
+        Various input text files used to test implementation of Zap! against
+        model for encoding into binary.
+
+    output1.bin, output2.bin output3.bin, output4.bin output5.bin outputA.bin,
+    all_english_output.bin, banana_output.bin, banana_apple_output.bin,
+    ecoli_output.bin, hi_output.bin, sentences_output.bin, & wos_output.bin
+        Various binary files used to text implementation of Zap! against
+        model for decoding into text.
+
+Architectural Overview:
+    The Gerp class implements a case-sensitive and case-insensitive search 
+    system that scans a directory of text files for user-specified queries. 
+    Central to its design is a vector of FileData structures, each containing a
+    filename, the original file lines, and sets of indexed words in both 
+    original and lowercase forms. The Gerp class manages the full lifecycle 
+    of the search operation, including file system traversal, file parsing, 
+    word indexing, user query handling, and result output. It operates through 
+    methods such as run(), which controls the main user interaction loop, and 
+    fstIterator(), which recursively processes directories and files using an 
+    FSTree structure built from the input directory. During setup, fillLines() 
+    reads each file line-by-line, storing text and populating word sets for 
+    efficient lookup. When a query is received, checkWords() searches all 
+    stored files for matches, normalizing case based on the user’s preference,
+    and writes any matching lines to the output file. errCheck() validates
+    whether the search term was found and provides error messages suggesting 
+    alternative search options if needed. The system is designed to be 
+    resilient against malformed input, with input sanitation handled by helper
+    functions such as stripNonAlphaNum() and stripAndLower(). Memory management
+    is implicit through standard containers like vector and set, avoiding 
+    manual allocation or deallocation. Each .cpp file corresponds to a .h file 
+    defining its public interface, while external files like FSTree.h and 
+    DirNode.h are used to support directory traversal without exposing internal
+    structures. In terms of dependency hierarchy, main.cpp (not shown) would
+    instantiate Gerp and serve as the client interface, while Gerp.h abstracts
+    all program logic into a single class. This layered structure results in a
+    clean, modular architecture where Gerp encapsulates all search logic, and
+    user interaction is kept simple and robust.
+
+Data Structures and Algorithms:
+    The core abstract data structures used in the Gerp program include vectors,
+    sets, and a tree-based file system abstraction. The FSTree and associated
+    DirNode classes represent a hierarchical directory structure, traversed
+    recursively using a depth-first search algorithm in the fstIterator()
+    method. This traversal builds a vector of FileData objects, each
+    encapsulating a filename, its original lines (as a vector<string>), and two
+    sets: memberWords and lowerWords. These sets are implemented using the C++
+    standard library set, which internally uses balanced binary search trees 
+    (typically red-black trees) to provide O(log n) time complexity for 
+    insertions and lookups. This choice ensures deduplication and fast querying
+    but incurs logarithmic overhead and memory usage for pointer-based tree 
+    nodes.
+
+    The most critical and expensive algorithmic operation occurs in the 
+    checkWords() method, which scans all stored files for user-provided query
+    terms. For each FileData, a word match is first attempted using the 
+    set::count() operation, which is O(log n) for both case-sensitive and
+    case-insensitive modes. If a file is found to contain the query term, it is
+    scanned line-by-line and word-by-word using istringstream, normalizing each
+    word with helper functions like stripNonAlphaNum() and stripAndLower(). The
+    word-by-word comparison in this nested loop results in a worst-case time
+    complexity of O(f x l x w), where f is the number of files, l the average 
+    number of lines per file, and w the average number of words per line. Since
+    this process is repeated for each query, the overall cost scales linearly
+    with the total number of words in the dataset, making it the primary
+    performance bottleneck.
+
+    The preprocessing stage in fillLines() is also algorithmically significant.
+    As it reads each file line-by-line, it inserts words into both the
+    memberWords and lowerWords sets, resulting in O(w log n) per file where w
+    is the number of unique words and n is the size of the set. Storing full
+    file contents in memory using vectors offers fast random access and
+    preserves line ordering for output, but at the cost of increased space
+    complexity—O(f x l)—as all files are loaded into memory at once.
+
+    While the program does not use complex data structures like tries or 
+    hash maps, it favors simplicity and modularity using STL containers that
+    offer a good trade-off between performance and maintainability. Future
+    optimizations might include using unordered_set for average-case constant
+    time word lookup or introducing inverted indexes for sublinear search
+    performance. However, in its current form, Gerp provides predictable 
+    behavior, clean separation of logic, and decent performance for 
+    medium-scale datasets. The recursive directory traversal, set-based word
+    indexing, and linear word scanning together form a straightforward but 
+    effective pipeline for textual search operations.
+
+Testing
+    The first phase testing for this project including using unit tests 
+    implemented in unit_test.h. This testing covered the efficacy and 
+    constistency of the traverseDirectory() and stripNonAlphaNum() functions.
+    All tests were executed, and assertions were used to validate expected 
+    outcomes. These tests ensure the correctness and accuracy of these 
+    processes could be trusted for latter portion of this project. 
+    
+    Additionally, six custom inputs files were written to test encoding of: a 
+    single character (inputA.txt), paragraphs (input1.txt), a single word
+    (input2.txt), texts with uniform frequencies (input3.txt), words all split
+    by new lines (input4.txt), and empty inputs (input5.txt). All of these, in
+    addition to the given files all_conll_english.txt, ecoli.coli, banana.txt,
+    banana_apple.txt, hi.txt, sentences.txt, and works_of_shakespeare.txt were 
+    run using the pattern ./zap zap "inputname".txt "inputname"_output.bin as
+    well as ./the_zap zap "inputname".txt "inputname"_correct.bin. Those output
+    files were then run through the program implementations again, once
+    following the pattern ./zap unzap "inputname"_correct.bin "inputname"2.txt,
+    then using the pattern ./zap unzap "inputname"_output.bin "inputname"3.txt,
+    and lastly using ./the_zap "inputname"_output.bin "inputname"_correct2.txt.
+    The outputs of these were then all compared to each other and the original
+    input file using diff to ensure that my implementation could encode and 
+    decode its own files, could encode files that the given implementation
+    could decode and could decode files that the given implementation had
+    encoded, all without changing any of the content within the text file.
+
+Part that you found most difficult:
+    The data abstraction that was needed to find efficient ways to store all of
+    the lines in a file and all of the words in a file separately, but 
+    relatedly was rather difficult.
+
+Time Spent: 34 hours

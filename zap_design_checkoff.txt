@@ -1,0 +1,70 @@
+Name:
+utln:        
+
+Unlike the previous two projects, there is no design checkoff for this one. You do not 
+have to submit these questions on Gradescope and you do not have to meet with a TA. 
+
+These questions are provided to you to help guide you in the implementation process. 
+If you would like to discuss any of these questions with a TA in office hours or on 
+Piazza, feel free to do so. 
+
+That being said, we strongly recommend looking through these questions and coming up 
+with rough answers before working on phase 2.
+
+1. Are you comfortable with a preorder traversal? Write out the pseudocode. Explain
+what it does. Where in the assignment do you think you will use it? 
+
+Answer: 
+
+2. Do you understand the differences between passing by reference versus by value? What does
+   this code print? Why do you think this relates to zap? 
+
+   void func1(int x) {
+       x = 1; 
+   }
+
+   void func2(int &x) {
+       x = 2;
+   }
+
+   int main() {
+       int y = 0;
+       func1(y); 
+       cout << y << endl; 
+       func2(y); 
+       cout << y << endl;   
+       return 0;
+   }
+
+Answer: 
+
+3. How do you plan to count characters? 
+
+Answer: 
+
+4. What data structure will you use for tree building? Do you understand how it works? Explain how it works in 
+   1-2 sentences. 
+
+Answer: 
+
+5. If you are iterating from root to leaf and then restart from the root, do you think you should do that iteratively 
+or recursively? Which part of the assignment is this eluding to?
+
+Answer: 
+
+6. What will your member variables be? What will your destructor have to do? 
+
+Answer: 
+
+7. Do you think there's any reason to implement a tree freeing function for phase 1? (Hint: think about testing)
+
+Answer: 
+
+8. How do you plan to test your program? What evidence of testing do you plan to submit? (Hint: use ZapUtil.h!)
+
+Answer: 
+     
+9. What is your timeline for completing this project? What would you like to have completed, and by which dates?   
+
+Answer: 
+
